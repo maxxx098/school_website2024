@@ -1,0 +1,163 @@
+.aboutHome {
+  top: 20rem;
+  position: relative;
+  margin: auto;
+  max-width: 1100px;
+  height: fit-content;
+  place-items: center;
+  align-items: center;
+  display: grid;
+}
+.about_container {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+ 
+}
+.about_box:nth-child(1), .col:nth-child(2){
+  flex-basis: 10%;
+}
+.about_box {
+  flex-basis: 50%;
+  padding: 10px;
+}
+
+.about_image {
+  width: 350px;
+  height: 450px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  top: 3rem;
+  left: 3rem;
+}
+.box {
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  background-color: #1eb2a6;
+}
+.box_box {
+  width: 350px;
+  height: 450px;
+  position: absolute;
+ border: 5px solid rgb(255, 255, 255);
+ top: 2rem;
+ left: 2rem;
+ z-index: 2;
+}
+
+.about_content h1 {
+  color: #1eb2a6;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.about_content p {
+  text-align: left;
+  width: fit-content;
+  font-size: 15px;
+  margin-top: 1rem;
+}
+.about_header-2 {
+  font-size: 2.5rem;
+  color: white;
+}
+.about_content {
+  margin-top: 2.5rem;
+}
+.about_button {
+  margin-top: 2rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1230px) {
+
+  .aboutHome {
+    width: 80%;
+    top: 10rem;
+   }
+  
+   .about_box {
+     flex-basis: 100%;
+     padding: 50px;
+     
+   }
+ .box {
+     width: 380px;
+     height: 530px;
+   }
+   .box_box {
+     width: 400px;
+     height: 540px;
+     margin-left: 2rem;
+     margin-top: 2rem;
+   }
+ .about_image {
+     width: 400px;
+     height: 540px;
+    
+   }
+}
+@media screen and (max-width: 992px) {
+
+.box {
+    width: 380px;
+    height: 530px;
+  }
+  .box_box {
+    width: 400px;
+    height: 580px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.about_image {
+    width: 400px;
+    height: auto;
+   
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  
+}
+@media screen and (max-width: 576px) {
+
+.box {
+    width: 200px;
+    height: 300px;
+ 
+  }
+  .box_box {
+    width: 240px;
+    height: 330px;
+   top: 0.1rem;
+   left: 0.1rem;
+ 
+  }
+.about_image {
+    width: 240px;
+    height: 300px;
+    top: 2rem;
+    left: 2rem;
+  }
+  .about_box {
+    flex-basis: 50%;
+    padding: 1rem;
+    
+  }
+  .aboutHome {
+    height: fit-content;
+  }
+   
+
+}
+
+/* For small devices */
+@media screen and (max-width: 380px) {
+  
+}

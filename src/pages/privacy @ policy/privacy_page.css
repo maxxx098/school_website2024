@@ -1,0 +1,29 @@
+.privacy_page_section {
+    margin-top: 10rem;
+    position: relative;
+    height: auto;
+}
+.privacy_page_container {
+    margin: auto;
+    border-radius: 30px;
+    min-height: auto;
+    background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
+}
+.privacy_page_box {
+    margin: 1rem;
+    padding: 3rem;
+}
+.privacy_page_box h1 {
+    color: white;
+    margin-bottom: 0.8rem;
+}
+.privacy_page_box p {
+    text-align: justify;
+   font-size: 15px;
+   line-height: 20px;
+   margin-bottom: 1rem;
+ }
+ .privacy_page_content {
+    display: flex;
+    gap: 0.5rem;
+ }

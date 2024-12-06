@@ -1,0 +1,126 @@
+.hero_section {
+    position: relative;
+    margin-top: 3rem;
+    z-index: -1;
+   height: fit-content;
+}
+.hero_box {
+    max-width: 1200px;
+    padding: 3rem;
+    margin: auto;
+    display: flex-wrap;
+    justify-content: center;
+    border-radius: 50px;
+    height: auto;
+}
+.hero_header-1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+.hero_box span {
+    color: #1eb2a6;
+}
+.hero_hero_hero {
+    text-align: center;
+    max-width: 1000px;
+    width: 60%;
+    font-size: 13px;
+    margin: auto;
+    margin-top: 1rem;
+}
+.hero_box_paragraph {
+    font-size: 1rem;
+    text-align: center;
+}
+.hero_box_button {
+    max-width: 1000px;
+    width: 85%;
+    margin: auto;
+}
+.hero_box_container_buuton{
+  display: flex;
+  gap: 2rem;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+.button-1 {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+    padding: 1.20rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    background-color: #1eb2a6;
+    border: 1px solid #1eb2a6 ;
+    border-radius: 40px;
+}
+.button-2 {
+    gap: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+    width: 100%;
+    padding: 1.20rem;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #1eb2a6 ;
+   border-radius: 40px;
+   color: white;
+}
+.button-2 a {
+    color: white;
+}
+
+
+/* For large devices */
+@media screen and (max-width: 1230px) {
+
+  }
+  
+  @media screen and (max-width: 992px) {
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+
+  }
+  
+  @media screen and (max-width: 576px) {
+    .hero_header-1 {
+       font-size: 2rem;
+    }
+    .hero_box {
+        width: auto;
+    }
+    .hero_hero_hero {
+        width: auto;
+    }
+    .hero_box_container_buuton{
+        display: grid;
+        gap: 2rem;
+        margin: auto;
+        justify-content: center;
+      }
+      .button-1 {
+       width: 400px;
+    }
+    .button-2 {
+        width: 400px;
+    }
+    
+  }
+  
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+
+  }
+    

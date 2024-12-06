@@ -1,0 +1,43 @@
+.home_scroll {
+    position: fixed;
+    bottom: 20px;  
+    right: 20px;   
+    z-index: 10000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.3s ease; 
+    opacity: 0; 
+  }
+  
+  
+  .home_scroll.show {
+    opacity: 1; /* Fully visible */
+  }
+  
+  /* Media Queries for responsiveness */
+  @media screen and (max-width: 1200px) {
+    .home_scroll {
+      margin-left: 7.5rem; 
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .home_scroll {
+      margin-left: 2rem; 
+      bottom: 10px; 
+      right: 10px; 
+      opacity: 1; 
+    }
+  }
+  @media screen and (max-width: 576px) {
+    .home_scroll {
+      margin-left: 0;
+      bottom: 10px; 
+      margin-right: 10px; 
+      opacity: 1; 
+    }
+  }
+  
+  

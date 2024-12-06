@@ -1,0 +1,235 @@
+
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dela+Gothic+One&family=Lexend:wght@100&family=Montserrat:wght@500&family=Poppins:wght@500&family=Roboto:wght@100&family=Source+Code+Pro:wght@400;600;700&family=Ultra&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  --header-height: 3rem;
+
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --hue: 0;
+  --sat: 0%;
+  --first-color: #1eb2a6;
+  --first-color-light: hsl(29, 80%, 70%);
+  --black-color: hsl(29, 16%, 10%);
+  --title-color: hsl(var(--hue), var(--sat), 80%);
+  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
+  --text-color: hsl(var(--hue), var(--sat), 46%);
+  --body-color: #0d0d0d;
+  --container-color: #fff;
+
+  /*========== Font and typography ==========*/
+  --body-font: "Poppins", sans-serif;
+
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --big-font-size: 3.5rem;
+  --h1-font-size: 2.25rem;
+  --h2-font-size: 1.5rem;
+  --h3-font-size: 1.25rem;
+  --normal-font-size: 1rem;
+  --small-font-size: 0.875rem;
+  --smaller-font-size: 0.813rem;
+  --tiny-font-size: 0.625rem;
+
+  /*========== Font weight ==========*/
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  /*========== Margenes Bottom ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --mb-0-25: 0.25rem;
+  --mb-0-5: 0.5rem;
+  --mb-0-75: 0.75rem;
+  --mb-1: 1rem;
+  --mb-1-5: 1.5rem;
+  --mb-2: 2rem;
+  --mb-2-5: 2.5rem;
+  --mb-3: 3rem;
+
+  /*========== z index ==========*/
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+/* Responsive typography */
+@media screen and (max-width: 992px) {
+  :root {
+    --big-font-size: 2.75rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  }
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: #0d0d0d;
+  color: var(--text-color);
+  height: 100%;
+  margin: 0;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #1eb2a6;
+  transition: 0.5s;
+}
+.icon:hover {
+  cursor: pointer;
+  background-color: #1eb2a6;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+}
+li {
+  list-style-type: none;
+}
+
+
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+.row {
+  width: 50%;
+}
+
+ .main-container.has-background {
+  background-image: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0) 50%), 
+    url("/images/bg.webp"); 
+  opacity: 80%;
+  height: 100lvh; 
+  max-height: 100%;
+  width: 100% !important;
+}
+
+.main-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+
+.container {
+  max-width: 80%;
+  margin: auto;
+}
+.container_header {
+  max-width: 1300px;
+  margin: 2rem;
+  
+}
+.grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+
+#heading {
+  text-align: center;
+  padding: 40px 0;
+}
+#heading h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #1eb2a6;
+  text-transform: uppercase;
+}
+#heading h1 {
+  font-size: 45px;
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+p {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+
+/* For large devices */
+@media screen and (max-width: 2230px) {
+  .main-container.has-background {
+    height: 85vh;
+  }
+}
+@media screen and (max-width: 1630px) {
+  .main-container.has-background {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 1230px) {
+  .main-container.has-background {
+    height: 65vh;
+  }
+  .row {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .main-container.has-background {
+    height: 70vh;
+  }
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+  .main-container.has-background {
+    height: 80vh;
+  }
+
+}
+@media screen and (max-width: 435px) {
+  .main-container.has-background {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 420px) {
+  .main-container.has-background {
+    height: 90vh;
+  }
+}
+
+
+/* For small devices */
+@media screen and (max-width: 395px) {
+  .main-container.has-background {
+    height: 95vh;
+  }
+  :root {
+    --big-font-size: 2.25rem;
+  }
+}
+@media screen and (max-width: 385px) {
+  .main-container.has-background {
+    height: 125vh;
+  }
+  :root {
+    --big-font-size: 2.25rem;
+  }
+}
