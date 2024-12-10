@@ -10,7 +10,7 @@
     height: auto;
     max-width: 100%;
     position: relative;
-    
+   
 }
 .section_images {
     display: flex;
@@ -21,11 +21,12 @@
     padding: 1rem;
     width: 90%;
     max-width: 1050px;
-    margin-top: 2rem;
     
 }
 
-
+.services_box {
+  margin-bottom: 1rem;
+}
 .services_content {
     display: flex;
     justify-content: center;
@@ -35,8 +36,11 @@
    width: 100%;
    height: min-content;
    margin-top: 2rem;
+   padding: 0 1rem 1rem 1rem;
 }
-
+.service_content_image {
+  padding: 1rem 1rem 0;
+}
 .section_header-3 {
     font-family: var(--body-font);
     color: var(--text-color);

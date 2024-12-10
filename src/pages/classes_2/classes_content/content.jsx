@@ -15,7 +15,6 @@ const content = () => {
         </div>
         <div className="classes_content_wrapper">
             <h1>ENGLISH CLASSES</h1>
-            <img src={Content} alt="star" className="classes_content_star" />
            <p>Our General English course will help you with daily talks, academic growth, and career advancement.
             You'll improve speaking, listening, reading, and writing skills through interactive lessons. Experienced instructors will support you,
             building confidence and fluency. Whether you're a beginner or want to improve, our course is tailored to your needs. Start reaching your language goals now.

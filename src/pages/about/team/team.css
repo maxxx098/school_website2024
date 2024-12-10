@@ -1,217 +1,114 @@
 
-/*=============== CARD ===============*/
-.team_section {
-    position: relative;
-    height: auto;
-    margin-inline: 1.5rem;
-    display: grid;
-    place-items: center;
-    margin-top: 35rem;
+
+.section__container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
 }
-.team_container {
-    margin-top: 4rem !important;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    
-  }
-  .team_content {
-    width: 90%;
-    text-align: center;
-    color:var(--first-color);
-  }
-  .team_paragraph {
-    color: rgb(97, 93, 93);
-    font-size: 2rem;
-    max-width: 1000px;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    margin: 1rem auto ;
-  }
-  .card {
-    position: relative;
-    width: auto;
-    height: auto !important;
-    background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
-    padding: 3.25rem 2rem 3rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    box-shadow: 0 4px 16px hsla(29, 75%, 8%, 0.2);
-    flex-basis: 30%;
-    
-  }
-  .card__img {
-    width: 140px;
-    border-radius: 50%;
-    
-  }
-  .card__border {
-   
-    width: 150px;
-    height: 150px;
 
-    border-radius: 50%;
-    display: grid;
-    place-items: center;
-    margin: 0 auto 0.75rem ;
-  }
-  .card__name {
-    color: white;
-    font-size: var(--h3-font-size);
-    font-weight: 500;
-  }
-  .card__profession {
-    color: rgb(146, 146, 146);
-    font-size: var(--smaller-font-size);
-    font-weight: 500;
-   
-  }
-  
-  .card__social {
-    width: 200px;
-    background-color: rgb(197, 197, 197);
-    padding: 0.75rem;
-    border-radius: 3rem;
-    text-align: initial;
-    background-color: var(--first-color);
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -1.75rem;
-    margin: 0 auto;
-    overflow: hidden;
-    transform-origin: 18px 17px;
-  }
-  .card__social-control {
-    position: relative;
-    transform-origin: 18px 18px;
-    transition: transform 0.45s ease;
-    transform: rotate(0);
-  }
-  .card__social-toggle {
-    display: inline-flex;
-    background-color: var(--black-color);
-    color: white;
-    font-size: 1.25rem;
-    padding: 0.5rem;
-    border-radius: 50%;
-    cursor: pointer;
-    position: relative;
-    z-index: 10;
-  }
-  .card__social-text {
-    display: block;
-    color: var(--black-color);
-    font-size: var(--smaller-font-size);
-    font-weight: 500;
-  }
-  .card__social-list {
-    display: inline-flex;
-    column-gap: 0.75rem;
-    transform: rotate(135deg);
-    transform-origin: 18px 17px;
-  }
-  .card__social-link {
-    display: inline-flex;
-    background: linear-gradient(180deg, #1e1e1e 0%, rgb(20, 20, 20) 100%);
-    color: rgb(153, 153, 153);
-    font-size: 1.25rem;
-    padding: 6px;
-    border-radius: 50%;
-  }
-  .card__social-text, .card__social-list {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding-left: 3.1rem;
-  }
-  .card__social-text {
-    top: 0.5rem;
-  }
-  
-  /* Rotate social */
-  .animation .card__social-control {
-    transform: rotate(-135deg);
-  }
-  
-  /* Up animation */
-  .card__social.animation {
-    animation: up-animation 1s ease-in-out forwards;
-  }
-  
-  @keyframes up-animation {
-    0%, 100% {
-      transform: rotate(0);
-    }
-    50%, 60% {
-      transform: rotate(-3deg);
-    }
-    88% {
-      transform: rotate(1deg);
-    }
-  }
-  /* Down animation */
-  .card__social.down-animation {
-    animation: down-animation 1s ease-in-out forwards;
-  }
-  
-  @keyframes down-animation {
-    0%, 100% {
-      transform: rotate(0);
-    }
-    50%, 60% {
-      transform: rotate(6deg);
-    }
-    88% {
-      transform: rotate(-1deg);
-    }
-  }
+.team__header {
+  margin-bottom: 2rem;
+}
 
-    /*=============== BREAKPOINTS ===============*/
-  /* For large devices */
+.team__header p {
+  letter-spacing: 2px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.team__header h1 {
  
-@media screen and (max-width: 1230px) {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.testimonials__grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.card__team {
+  padding: 2rem;
+  display: grid;
+  gap: 1rem;
+  border-radius: 5px;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card__team i {
+  font-size: 2.5rem;
+  color: var(--first-color);
+}
+
+.card__team p {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.card__team hr {
+  width: 40px;
+  margin: auto;
+  color: var(--text-light);
+}
+
+.card__team img {
+  width: 60px;
+  height: 60px;
+  margin: auto;
+  border-radius: 100%;
  
 }
-  @media screen and (max-width: 992px) {
-    .card {
-      width: 300px;
-    }
+
+.card__team .name {
+  font-size: 0.9rem;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.card__team .name:hover {
+  color: var(--first-color);
+}
+
+.footer__team h4 {
+  color: rgb(187, 183, 183);
+  font-size: 1.25rem;
+  font-weight: 900;
+  margin-bottom: 1rem;
+}
+
+.footer__team p {
+  max-width: 500px;
+  margin: auto;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer__team button {
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+@media (width < 900px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
-  
-  /* For medium devices */
-  @media screen and (max-width: 768px) {
-    .team_container {
-      gap: 2rem;
-    }
-    .card {
-      flex-basis: 40%;
-      
-    }
+}
+
+@media (width < 600px) {
+  .testimonials__grid {
+    grid-template-columns: repeat(1, 1fr);
   }
-  @media screen and (max-width: 576px) {
-    .team_container {
-        gap: 8rem;
-    }
-    .card {
-        padding: 20px;
-        padding-bottom: 4rem;
-        flex-basis: 100%;
-      }
-    .team_paragraph {
-        max-width: 1000px;
-        width: 90%;
-        
-      }
-      .team_section {
-        margin-top: 20rem;
-      }
-  }
-  
-  /* For small devices */
-  @media screen and (max-width: 350px) {
-   
-  }
+}

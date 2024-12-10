@@ -28,31 +28,31 @@ const hero = () => {
             </div>
           </div>
           <div className='row row_button'>
-          <button class="custom-button">
-            <div class="icon">
+          <button className="custom-button">
+            <div className="icon">
             <BsFillLightningChargeFill size={25} />
             </div>
-            <div class="text">
-              <span class="text-primary">Congratulations</span>
-              <span class="text-secondary">Your admission completed</span>
+            <div className="text">
+              <span className="text-primary">Congratulations</span>
+              <span className="text-secondary">Your admission completed</span>
             </div>
           </button>
-            <button class="custom-button-secondary">
-            <div class="icon">
+            <button className="custom-button-secondary">
+            <div  className="icon">
             <FaGraduationCap size={25} />
             </div>
-            <div class="text">
-              <span class="text-primary">450K</span>
-              <span class="text-secondary">Assisted Student</span>
+            <div className="text">
+              <span className="text-primary">450K</span>
+              <span className="text-secondary">Assisted Student</span>
             </div>
           </button>
-          <button class="custom-button-third">
-            <div class="icon">
+          <button className="custom-button-third">
+            <div className="icon">
             <FaUsers size={25} />
             </div>
-            <div class="text">
-              <span class="text-primary">450K</span>
-              <span class="text-secondary">Assisted Student</span>
+            <div className="text">
+              <span className="text-primary">450K</span>
+              <span className="text-secondary">Assisted Student</span>
             </div>
           </button>
           </div>

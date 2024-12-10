@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-
+import { NavLink } from 'react-router-dom'
 const services = () => {
   return (
     <>
@@ -15,7 +15,7 @@ const services = () => {
         <div className="hero_box_button">
            <div className="hero_box_container_buuton">
            <button className='button-1'data-aos="fade-right"><a href="#service">  GET STARTED</a></button>
-           <button className='button-2'data-aos="fade-left"><a href="/booking">BOOK NOW</a></button>
+           <button className='button-2'data-aos="fade-left"><NavLink to='/booking'>BOOK NOW</NavLink></button>
            </div>
         </div>
     </section>

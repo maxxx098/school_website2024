@@ -23,7 +23,7 @@ const footer = () => {
                     <li className="footer_list">Canada</li>
                     <li className="footer_list">123 ST. Road</li>
                     <li className="footer_list">+123456</li>
-                    <li className="footer_list">incscribe@domain.com</li>
+                    <li className="footer_list">sharon@inkscribewriters.com</li>
                     <li className="footer_list">Ohio </li>
                 </ul>
              </div>
@@ -46,21 +46,21 @@ const footer = () => {
                     </li>
                     <li className="footer_list">
                     
-                      <NavLink className='footer_nav' to="/privacy_page">
+                      <NavLink className='footer_nav' to="/services">
                         Services
                        </NavLink>
                       
                     </li>
                     <li className="footer_list">
                      
-                      <NavLink className='footer_nav' to="/privacy_page">
+                      <NavLink className='footer_nav' to="/contact">
                         Contact Us
                        </NavLink>
                        
                     </li>
                     <li className="footer_list">
                      
-                      <NavLink className='footer_nav' to="/privacy_page">
+                      <NavLink className='footer_nav' to="/terms_and_conditions">
                         Terms & Conditions
                        </NavLink>
                      

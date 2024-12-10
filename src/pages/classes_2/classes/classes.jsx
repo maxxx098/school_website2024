@@ -9,7 +9,7 @@ const classes = () => {
      <h2 className='services_paragraph'data-aos="fade-zoomIn">Find the best way for you 
     </h2>
       <div className="wrapper" data-aos="fade-zoomIn">
-        <div className="card " >
+        <div className="card_pricing" >
             <h3>Beginners </h3>
             <h1>$25 <span>/Starts</span></h1>
             <p>For Most Buisness that want to optimize their web queries.</p>
@@ -20,7 +20,7 @@ const classes = () => {
             <a href="/">Choose Plan</a>
 
         </div>
-        <div className="card ">
+        <div className="card_pricing ">
             <h3>Intermediate </h3>
             <h1>$30 <span>/Starts</span></h1>
             <p>For Most Buisness that want to optimize their web queries.</p>
@@ -33,7 +33,7 @@ const classes = () => {
         </div>
 
 
-        <div className="card">
+        <div className="card_pricing">
             <h3>Advanced</h3>
             <h1>$30 <span>/Starts</span></h1>
             <p>For Most Buisness that want to optimize their web queries.</p>

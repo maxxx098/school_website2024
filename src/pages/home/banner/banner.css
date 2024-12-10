@@ -5,6 +5,7 @@
     height: 100vh;
     place-items: center;
 }
+
 .banner_container {
     width: 100% !important;
     max-width: 1050px !important;

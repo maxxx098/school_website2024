@@ -4,6 +4,9 @@ import './services.css'
 import Loacate from './assets/svg/locate-outline.svg'
 import Pricetags from './assets/svg/pricetags-outline.svg'
 import Finger from './assets/svg/finger-print-outline.svg'
+import Image_1 from './assets/jpg/course-2-1.jpg'
+import Image_2 from './assets/jpg/course-4-1.jpg'
+import Image_3 from './assets/jpg/course-5-1.jpg'
 const services_extension = () => {
   return (
     <section  className='services_extension'data-aos="fade-zoomIn">
@@ -17,7 +20,7 @@ const services_extension = () => {
           <div className="service_images">
             <div className="service_content">
                 
-            <img className='service_icons' src={Pricetags} alt="" />
+            <img className='service_icons' src={Image_1} alt="" />
             </div>
             <div className='services_sub-content'>
             <h3 className='section_header-3'>School Application</h3>
@@ -26,7 +29,7 @@ const services_extension = () => {
           </div>
           <div className="service_images">
            <div className="service_content">
-           <img className='service_icons'  src={Loacate} alt="" />
+           <img className='service_icons'  src={Image_2} alt="" />
 
             </div>
             <div className='services_sub-content'>
@@ -36,7 +39,7 @@ const services_extension = () => {
           </div>
           <div className="service_images">
            <div className="service_content">
-           <img className='service_icons'  src={Finger} alt="" />
+           <img className='service_icons'  src={Image_3} alt="" />
 
            </div>
            <div className='services_sub-content'>

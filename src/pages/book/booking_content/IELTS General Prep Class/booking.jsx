@@ -5,13 +5,13 @@ const booking = () => {
   
   // Link to One on One Call in Calendly
   const oneCall = () => {
-    const url = "https://calendly.com/inkscribewriters/celpip-general-class";  
+    const url = "https://calendly.com/inkscribewriters/ielts-general-prep-class-general-edition";  
     window.open(url, "_blank");
   };
 
  // Link to Group Call in Calendly
   const groupCall = () => {
-    const url = " https://calendly.com/inkscribewriters/celpip-general-class-1";  
+    const url = "https://calendly.com/inkscribewriters/ielts-general-prep-class-general-edition-1";  
     window.open(url, "_blank"); 
   };
   return (

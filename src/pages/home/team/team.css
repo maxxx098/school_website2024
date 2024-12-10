@@ -1,0 +1,14 @@
+.team__section {
+  margin-top: 8rem;
+  min-height: auto;
+  display: flex;
+  align-items: center;
+}
+.section___container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+}
+

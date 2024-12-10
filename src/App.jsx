@@ -22,6 +22,7 @@ import IeltsWritingMasterClass from './pages/book/booking_content/IELTS Writing 
 import ToeflGeneralClass from './pages/book/booking_content/TOEFL General Class/booking.jsx'
 import BackToTopButton from './pages/backToTopButton/BackToTopButton.jsx'
 import PrivacyPage from './pages/privacy @ policy/privacy_page.jsx'
+import TermsAndConditions from './pages/terms and conditions/Conditions.jsx'
 function App() {
   useEffect(() => {
     AOS.init({ duration: 2000 });
@@ -65,7 +66,8 @@ function MainContent() {
 
           {/* This is a Routes for Footer Links */}
           <Route path="/privacy_page" element={<PrivacyPage/>} />
-         
+          <Route path="/terms_and_conditions" element={<TermsAndConditions/>} />
+           
       </Routes>
         <Footer/>
         

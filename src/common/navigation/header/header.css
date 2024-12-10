@@ -196,10 +196,9 @@ header ul li a:hover {
     width: 90%;
     background-color: #313131;
     border-radius: 30px;
-    transform: translateY(-120%);
+    transform: translateY(-140%);
     transition: transform 0.4s ease-in, opacity 0.4s ease-in;
     z-index: 100;
-   
     opacity: 0;
     display: block;
  

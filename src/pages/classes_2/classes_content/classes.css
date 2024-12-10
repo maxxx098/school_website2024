@@ -18,8 +18,8 @@
 .custom_border {
     box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
     top: 1rem;
-    width: 500px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
     background-color: var(--first-color);
     position: absolute;
     z-index: -1;
@@ -55,7 +55,7 @@
     animation: profile_animate 8s ease-in-out infinite 1s;
     
     object-fit: cover;
-    width: 100%;
+    width: 80%;
 }
 .classes_content_wrapper h1 {
     color: white;
@@ -123,6 +123,13 @@
     .classes_container {
         display: grid;
         grid-template-columns: repeat(1,1fr);
+        gap: 5rem;
+    }
+    .classes_content_image {
+        width: 300px;
+    }
+    .custom_border {
+        width: 350px;
     }
   }
   

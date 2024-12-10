@@ -1,15 +1,19 @@
-import React from 'react'
-import './about_us.css'
+import React, { useState, useEffect } from 'react';
+import "./about_us.css"
 import Image_1 from './assets/avif/photo.avif'
+import { FaGraduationCap, FaUsers } from "react-icons/fa"
+import { GiEvilBook, GiWorld } from "react-icons/gi"
+
 const about_us = () => {
+
   return (
-   <>
-   <section className='aboutHome' id='aboutHome'>
+    <>
+      <section className='aboutHome' id="home_section" >
         <div className='about_container '>
            <div className="about_box" data-aos="fade-right">
             <div className="box"></div>
             <div className="box_box"></div>
-            <img className="about_image" src={Image_1} alt="photo" />
+            <img className="about_image"  src={Image_1} alt="photo" />
            </div>
             <div className="about_box" data-aos="fade-left">
               <div className="about_content">
@@ -25,10 +29,68 @@ const about_us = () => {
                </div>
               </div>
            </div>
-        </div>
+        </div>        
       </section>
-   </>
+      
+      <section className="about_card_content_section" data-aos="zoomIn">
+          <h1>We Are Proud</h1>
+          <span>You don't have to struggle alone, you've got our assistance and help.</span>
+      <AboutCardContent/>
+     </section>
+
+    </>
   )
 }
 
+
+
+export const AboutCardContent = () => {
+  return (
+    <div className='about_card_content_container container' data-aos="zoomIn">
+    <InstructorCard color='#EF4444' icon={<FaUsers size={40} />} title={<Counter endValue={63} />} desc='Students Enrolled' />
+    <InstructorCard color='#F97316' icon={<GiEvilBook size={40} />} title={<Counter endValue={20} />} desc='Total Courses' />
+    <InstructorCard color='#A855F7' icon={<FaGraduationCap size={40} />} title={<Counter endValue={4} />} desc='Online Learners' />
+    <InstructorCard color='#6366F1' icon={<GiWorld size={40} />} title={<Counter endValue={3} />} desc='Online Teachers' />
+  </div>
+  )
+}
+export const InstructorCard = (props) => {
+  return (
+    <div className="box_content_about">
+    <div className='color' style={{ color: props.color }}>{props.icon}</div>
+    <div className="text_content">
+    <div>{props.title}</div>
+    <p>{props.desc}</p>
+    </div>
+   </div>
+  )
+}
+
+
+export const Counter = ({ endValue }) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let start = 0;
+    const increment = Math.ceil(endValue / 100); 
+
+    const interval = setInterval(() => {
+      start += increment;
+      if (start >= endValue) {
+        start = endValue;
+        clearInterval(interval); 
+      }
+      setCount(start);
+    }, 100); 
+
+    return () => clearInterval(interval); 
+  }, [endValue]);
+
+  return (
+    <h4>{count}</h4> 
+  )
+}
+
+
 export default about_us
+

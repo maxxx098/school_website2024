@@ -71,11 +71,92 @@
 .about_button {
   margin-top: 2rem;
 }
+/* Course_Content */
+.course_section {
+  top: 20rem;
+  position: relative;
+ 
+}
+.course_section_h {
+  color: #1eb2a6;
+  text-align: center;
+}
+.course_section_p {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 2rem;
+}
+/* Course_Content_End */
+
+
+/* About_Card_Content */
+.about_card_content_section {
+  height: auto;
+  margin: auto;
+  width: 70%;
+  top: 28rem;
+  position: relative;
+}
+.about_card_content_section h1 {
+  color: #1eb2a6;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.about_card_content_section span {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  
+}
+.about_card_content_container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 1.25rem; 
+  margin-top: 2rem;
+  place-items: center;
+}
+.box_content_about {
+  padding: 1.25rem; 
+  padding-top: 1.25rem; 
+  padding-bottom: 1.25rem;
+  border-radius: 0.375rem; 
+}
+
+.text_content {
+  margin-top: 0.5rem; 
+}
+
+.text_content h4 {
+  font-size: 1.125rem; 
+  font-weight: 600; 
+  color: rgb(202, 202, 202); 
+}
+.color {
+  color: #202020;
+}
+.text_content p {
+  font-size: 0.9375rem; 
+}
+/* About_Content_End */
+
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 1230px) {
-
+  .course_section {
+    top: 10rem;
+    position: relative;
+   
+  }
+  .about_card_content_container {
+    margin-top: 2rem;
+  }
+  .about_card_content_section {
+    width: 90%;
+    top: 15rem;
+  }
+  
   .aboutHome {
     width: 80%;
     top: 10rem;
@@ -126,6 +207,22 @@
   
 }
 @media screen and (max-width: 576px) {
+  .about_card_content_section span {
+    font-size: 12px;
+    text-align: center;
+  }
+  .course_section {
+    top: 23rem;
+    position: relative;
+   
+  }
+  .about_card_content_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 1.25rem; 
+    height: 30vh;
+    place-items: center;
+  }
 
 .box {
     width: 200px;

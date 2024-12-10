@@ -27,3 +27,41 @@
     display: flex;
     gap: 0.5rem;
  }
+
+ @media screen and (max-width: 1230px) {
+    .privacy_page_box p {
+        position: relative;
+        word-spacing: normal !important;
+        font-size: 12px;
+    }
+}
+  
+  @media screen and (max-width: 992px) {
+
+  }
+  
+  /* For medium devices */
+  @media screen and (max-width: 768px) {
+  
+  }
+  @media screen and (max-width: 576px) {
+    .privacy_page_box {
+        margin: 5px;
+        padding: 1rem;
+    }
+    .privacy_page_box p {
+        position: relative;
+        word-spacing: normal !important;
+        font-size: 12px;
+        text-align: left;
+    }
+    .privacy_page_box h1 {
+        text-align: center;
+    }
+  }
+
+  /* For small devices */
+  @media screen and (max-width: 350px) {
+ 
+  }
+  

@@ -9,7 +9,7 @@ import Photo_6 from './images/Photo_6.avif';
 import Photo_7 from './images/Photo_7.avif';
 import Photo_8 from './images/Photo_8.avif';
 import Pagination from './booking_page_2.jsx';
-
+import { NavLink } from 'react-router-dom';
 const booking_page = () => {
 
   const [currentPage, setCurrentPage] = useState(1);
@@ -108,10 +108,8 @@ const booking_page = () => {
                   <span className='booking_paragraph'>{item.edition}</span>
                   <p>{item.content}</p>
                   <div className="booking_button">
-                    <a className="booking_button_a" href={item.route}>
-                      NEXT
-                      <i className="ri-arrow-right-fill"></i>
-                    </a>
+                    <NavLink className='booking_button_a' to={item.route}> READ MORE
+                    <i className="ri-arrow-right-fill"></i></NavLink> 
                   </div>
                 </div>
               </div>

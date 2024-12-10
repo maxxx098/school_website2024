@@ -82,7 +82,7 @@ const Header = () => {
           <div className="start">
             <div className="just_button">
               <NavLink className="nav_link" to="/booking">
-                <i className="ri-phone-line"></i>Book a Class
+                <i className="ri-phone-line"></i>Book a Class 
               </NavLink>
             </div>
           </div>

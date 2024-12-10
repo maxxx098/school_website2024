@@ -6,10 +6,10 @@
   color: #4d5974;
   background-color: var(--body-color);
   display: flex;
-  height: fit-content;
+  height: auto;
   align-items: center;
   border-radius: 40px;
-  margin-top: 12rem;
+  margin-top: 33rem;
 }
 
 .faq_container {

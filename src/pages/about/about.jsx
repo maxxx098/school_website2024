@@ -10,8 +10,8 @@ const about = () => {
     <>
     <Hero/>
     <About_us/>
-    <Team/>
     <FAQ/>
+    <Team/>
     <Banner/>
     </>
   )
