@@ -1,43 +1,55 @@
-import React from 'react'
-import './first_page.css'
-import First_photo from './images/first_photo.avif'
-import Second_photo from './images/second_photo.avif'
-import Third_photo from './images/third_photo.avif'
-const first_page = () => {
-    const content = [
-        {
-          paragraph_1: "One-on-one  $45 CAD ",
-          paragraph_2: "Group Call  $20 CAD ",
-          header: 'TOEFL Classes ',
-          image: First_photo,
-          item_1: 'TOEFL Test Prep',
-          item_2: 'TOEFL Writing Master Classes',
-          item_3: 'TOEFL Speaking & Reading  Master Class',
-        },
-        {
-          paragraph_1: "One-on-one  $45 CAD ",
-          paragraph_2: "Group Call  $20 CAD ",
-          header: 'IELTS Academic & General Classes ',
-          image: Second_photo,
-          item_1: 'IELTS (Academic/General) ',
-          item_2: 'IELTS Writing Master Class',
-          item_3: 'IELTS Speaking & Reading  Master Class',
-          route:'/ielts_general_preparation'
-        },
-        {
-            paragraph_1: "One-on-one  $45 CAD ",
-            paragraph_2: "Group Call  $20 CAD ",
-            header: 'CELPIP Classes ',
-            image: Third_photo,
-            item_1: 'CELPIP General Prep',
-            item_2: 'CELPIP Writing Master Class',
-            item_3: 'CELPIP Speaking & Reading  Master Class',
-            route: '/celpip_general_class',
-        },
-      ];
-    
+import React from 'react';
+import './first_page.css';
+import First_photo from './images/first_photo.avif';
+import Second_photo from './images/second_photo.avif';
+import Third_photo from './images/third_photo.avif';
+import { useNavigate } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
+
+const firstPage = () => {
+  const [t] = useTranslation("global");
+  const navigate = useNavigate();
+
+  const content = [
+    {
+      image: First_photo,
+      header: t('service_content.toefl_classes'),
+      paragraph: t('service_content.toefl_classes_paragraph'),
+      content_1: t('service_content.toefl_test_prep'),
+      content_2: t('service_content.toefl_writing_master_classes'),
+      content_3: t('service_content.toefl_speaking_reading_master_class'),
+      price_1: t('service_content.price_1'),
+      price_2: t('service_content.price_2'),
+      price_3: t('service_content.price_3'),
+      route: '/toefl_classes',
+    },
+    {
+      image: Second_photo,
+      header: t('service_content.ielts_classes'),
+      paragraph: t('service_content.ielts_classes_paragraph'),
+      content_1: t('service_content.ielts_academic_general'),
+      content_2: t('service_content.ielts_writing_master_class'),
+      content_3: t('service_content.ielts_speaking_reading_master_class'),
+      price_1: t('service_content.price_4'),
+      price_2: t('service_content.price_5'),
+      price_3: t('service_content.price_6'),
+      route: '/ielts_general_preparation',
+    },
+    {
+      image: Third_photo,
+      header: t('service_content.celpip_classes'),
+      paragraph: t('service_content.celpip_classes_paragraph'),
+      content_1: t('service_content.celpip_general_prep'),
+      content_2: t('service_content.celpip_writing_master_class'),
+      content_3: t('service_content.celpip_speaking_reading_master_class'),
+      price_1: t('service_content.price_7'),
+      price_2: t('service_content.price_8'),
+      price_3: t('service_content.price_9'),
+      route: '/celpip_general_class',
+    },
+  ];
+
   return (
-    <>
     <section className="first_page_section" id='classes'>
         <div  className="first_page_container container">
         {content.map((item, index) => (
@@ -47,22 +59,25 @@ const first_page = () => {
            </div>
            <div className="first_page_i_container">
               <div className="first_page_i">
-                <i className="ri-award-fill"></i><p>{item.item_1}</p>
+                <i className="ri-award-fill"></i><p>{item.content_1}</p>
                  </div>
                    <div className="first_page_i">
-                   <i className="ri-chat-search-fill"></i><p>{item.item_2}</p>
+                   <i className="ri-chat-search-fill"></i><p>{item.content_2}</p>
                     </div>
                   <div className="first_page_i">
-                  <i className="ri-bar-chart-2-fill"></i><p>{item.item_3}</p>
+                  <i className="ri-bar-chart-2-fill"></i><p>{item.content_3}</p>
              </div>
            </div>
            <h1>{item.header}</h1>
            <div className="bottom_paragraph">
             <div className="bottom">
-            <i className="ri-checkbox-fill"></i><p>{item.paragraph_1}</p>
+            <i className="ri-checkbox-fill"></i><p>{item.price_1}</p>
             </div>
             <div className="bottom">
-            <i className="ri-checkbox-fill"></i><p>{item.paragraph_2}</p>
+            <i className="ri-checkbox-fill"></i><p>{item.price_2}</p>
+            </div>
+            <div className="bottom">
+            <i className="ri-checkbox-fill"></i><p>{item.price_3}</p>
             </div>
            </div>
 
@@ -70,7 +85,7 @@ const first_page = () => {
            
            <div className="btn-6">
          <a className="btn-content" href={item.route} >
-          <span className="btn-title">Next</span>
+          <span className="btn-title">{t("service_content.next")}</span>
            <span className="icon-arrow">
           <svg
             width="50px"
@@ -109,9 +124,9 @@ const first_page = () => {
          ))}
      </div>
     </section>
-    </>
-  )
-}
+  );
+};
 
-export default first_page
+export default firstPage;
+
  

@@ -1,7 +1,12 @@
 import React from 'react'
 import Photo from '../../booking_page/images/photo_3.avif'
+import { useTranslation } from 'react-i18next';
+import { useTransition } from "../../../../common/TransitionContext";
 
 const booking = () => {
+
+  const { isFading } = useTransition();
+  const { t } = useTranslation("global");
   
   // Link to One on One Call in Calendly
   const oneCall = () => {
@@ -17,6 +22,7 @@ const booking = () => {
   return (
    <>
    <section className="general_class_section">
+   <div className={`fade ${isFading ? "hidden" : ""}`}>
      <div className="general_class_container ">
        <div className="general_class_box">
        <div className="general_class_image_container">
@@ -25,14 +31,14 @@ const booking = () => {
        </div>
        <div className="general_class_box">
        <div className="general_class_content">
-         <h1>IELTS General Prep Class</h1>
-         <span><i className="ri-money-dollar-circle-fill"></i>30 CAD</span>
-         <p>The CELPIP General Class helps individuals improve English skills for everyday communication, work, and immigration through targeted practice.</p>
+        <h1> {t('booking_2.ieltsClassTitle')} </h1>
+         <span><i className="ri-money-dollar-circle-fill"></i>{t('booking_2.classPrice')}</span>
+         <p>{t('booking_2.classDescription')}</p>
          
        </div>
        <div className="genaral_class_button">
-       <button onClick={oneCall}><i class="ri-user-2-fill"></i><p>One on One Call</p></button>
-       <button onClick={groupCall}><i class="ri-user-2-fill"></i><i class="ri-user-2-fill"></i><p>Group Call</p></button>
+       <button onClick={oneCall}><i class="ri-user-2-fill"></i><p>{t('booking_2.oneOnOneCall')}</p></button>
+       <button onClick={groupCall}><i class="ri-user-2-fill"></i><i class="ri-user-2-fill"></i><p>{t('booking_2.groupCall')}</p></button>
        </div>
        </div>
        </div>
@@ -40,45 +46,46 @@ const booking = () => {
        <section className="overview_section">
        <div className="overview_content">
             <i className="ri-bookmark-3-fill"></i>
-            <p>OVERVIEW</p>
+            <p>{t('booking_2.overview')}</p>
             </div>
         <div className="overview_container container">
             <div className="overview_wrapper box_1">
             <div className="overiew_content_wrapper">
-            <h1>CLASS DESCRIPTION</h1>
-            <p>The IELTS General Class is tailored for individuals aiming to succeed in the International English Language Testing System (IELTS) General Training module. This test is a vital requirement for those pursuing immigration, work opportunities, or secondary education in English-speaking countries.</p>
+            <h1>{t('booking_2.classDescriptionTitle')}</h1>
+            <p>{t('booking_2.classDetailedDescription')}</p>
             <ul>
-              <li><i className="ri-verified-badge-fill"></i>Listening</li>
-              <li><i className="ri-verified-badge-fill"></i>Reading</li>
-              <li><i className="ri-verified-badge-fill"></i>Writing</li>
-              <li><i className="ri-verified-badge-fill"></i>Speaking</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.listening')}</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.reading')}</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.writing')}</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.speaking')}</li>
             </ul>
-            <p>By the end of the class, students will:</p>
-            <h1>Class Objectives:</h1>
+            <p>{t('booking_2.classObjectives')}</p>
+            <h1>{t('booking_2.classObjectivesTitle')}</h1>
             <ul>
-              <li><i className="ri-verified-badge-fill"></i>Master the IELTS General Training test format, band descriptors, and scoring criteria.</li>
-              <li><i className="ri-verified-badge-fill"></i>Apply effective strategies for each test section to optimize time and accuracy.</li>
-              <li><i className="ri-verified-badge-fill"></i>Improve listening skills to understand spoken English in a variety of accents and contexts.</li>
-              <li><i className="ri-verified-badge-fill"></i>Develop reading techniques to quickly analyze and respond to workplace and general interest texts.</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.objective1')}</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.objective2')}</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.objective3')}</li>
+              <li><i className="ri-verified-badge-fill"></i>{t('booking_2.objective4')}</li>
             </ul>
             </div>
             </div>
             <div className="vertical-hr" />
             <div className="overview_wrapper box_2">
-            <h1>CLASS FEATURES</h1>
+            <h1>{t('booking_2.classFeaturesTitle')}</h1>
              <ul>
-              <li><i class="ri-aed-electrodes-fill"></i>Lectures: <span>3</span></li>
+              <li><i class="ri-aed-electrodes-fill"></i>{t('booking_2.lectures')} <span>3</span></li>
               <hr />
-              <li><i class="ri-time-fill"></i>Duration: <span>1 Hour</span> </li>
+              <li><i class="ri-time-fill"></i>{t('booking_2.duration')} <span>1 {t('booking_2.hour')}</span> </li>
               <hr />
-              <li><i class="ri-glasses-fill"></i>Level: <span>Beginner</span></li>
+              <li><i class="ri-glasses-fill"></i>{t('booking_2.level')}<span>{t('booking_2.beginner')}</span></li>
               <hr />
-              <li><i class="ri-earth-fill"></i>Language: <span>English</span></li>
+              <li><i class="ri-earth-fill"></i>{t('booking_2.language')} <span>{t('booking_2.english')}</span></li>
               <hr />
              </ul>
             </div>
         </div>
        </section>
+       </div>
    </section>
    </>
   )

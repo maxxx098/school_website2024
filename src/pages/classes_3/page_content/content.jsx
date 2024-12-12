@@ -2,31 +2,32 @@ import React from 'react'
 import './content.css'
 import First_photo from '../images/Photo_1.avif'
 import Second_photo from '../images/Photo_2.avif'
+import { useTranslation } from 'react-i18next'
 
 const content = () => {
-    const content = [
-        {
-          paragraph_1: "One-on-one  $30 CAD ",
-          paragraph_2: "Group Call  $15 CAD ",
-          header: 'Business English ',
-          image: First_photo,
-          item_1: 'Presentation skills',
-          item_2: 'Role-play under real business scenarios ',
-          item_3: 'Business collocations & phrases',
-        },
-        {
-          paragraph_1: "One-on-one  $45 CAD ",
-          paragraph_2: "Group Call  $20 CAD ",
-          header: 'IELTS Academic & General Classes ',
-          image: Second_photo,
-          item_1: 'IELTS (Academic/General) ',
-          item_2: 'IELTS Writing Master Class',
-          item_3: 'IELTS Speaking & Reading  Master Class',
-          route:'/ielts_general_preparation'
-        },
-        
-      ];
-    
+  const { t } = useTranslation("global");
+
+  const content = [
+    {
+      paragraph_1: t('content_3.one_on_one') + " $30 CAD ",
+      paragraph_2: t('content_3.group_call') + " $15 CAD ",
+      header: t('content_3.business_english'),
+      image: First_photo,
+      item_1: t('content_3.presentation_skills'),
+      item_2: t('content_3.role_play'),
+      item_3: t('content_3.business_collocations'),
+    },
+    {
+      paragraph_1: t('content_3.one_on_one') + " $45 CAD ",
+      paragraph_2: t('content_3.group_call') + " $20 CAD ",
+      header: t('content_3.ielts_classes'),
+      image: Second_photo,
+      item_1: t('content_3.ielts_academic_general'),
+      item_2: t('content_3.ielts_writing_master'),
+      item_3: t('content_3.ielts_speaking_reading'),
+      route: '/ielts_general_preparation',
+    },
+  ];
   return (
     <>
     <section className="first_page_section" id='classes_3'>

@@ -3,38 +3,40 @@ import "./about_us.css"
 import Image_1 from './assets/avif/photo.avif'
 import { FaGraduationCap, FaUsers } from "react-icons/fa"
 import { GiEvilBook, GiWorld } from "react-icons/gi"
-
+import { useTranslation } from "react-i18next";
+import { useTransition } from "../../../common/TransitionContext";
 const about_us = () => {
-
+  const { isFading } = useTransition();
+  const [t] = useTranslation("global");
   return (
     <>
       <section className='aboutHome' id="home_section" >
+      <div className={`fade ${isFading ? "hidden" : ""}`}>
         <div className='about_container '>
-           <div className="about_box" data-aos="fade-right">
+           <div className="about_box" data-aos="zoom-in-right" >
             <div className="box"></div>
             <div className="box_box"></div>
             <img className="about_image"  src={Image_1} alt="photo" />
            </div>
-            <div className="about_box" data-aos="fade-left">
+            <div className="about_box" data-aos="zoom-in-left">
               <div className="about_content">
-              <h1>Learn About Us</h1>
-              <h2 className="about_header-2">10 + YEARS OF <br /> EXPERIENCE</h2>
-              <p>As passionate educators and writers, we have over 10 years of experience teaching English to students of 
-                all levels and abilities. Our expertise has helped students gain admission to schools, and we have assisted
-                professionals in writing research papers and translating their knowledge in the workplace.</p>
+              <h1>{t("homepage.content_9")}</h1>
+              <h2 className="about_header-2">{t("homepage.content_10")}</h2>
+              <p>{t("homepage.content_11")}</p>
                <div className="about_button">
                <button className='primary-btn '>
-                GET STARTED NOW <i className='fa fa-long-arrow-alt-right'></i>
+               {t("homepage.content_12")} <i className='fa fa-long-arrow-alt-right'></i>
               </button>
                </div>
               </div>
            </div>
-        </div>        
+        </div>    
+        </div>      
       </section>
       
       <section className="about_card_content_section" data-aos="zoomIn">
-          <h1>We Are Proud</h1>
-          <span>You don't have to struggle alone, you've got our assistance and help.</span>
+          <h1>{t("homepage.content_13")}</h1>
+          <span>{t("homepage.content_14")}</span>
       <AboutCardContent/>
      </section>
 
@@ -45,12 +47,13 @@ const about_us = () => {
 
 
 export const AboutCardContent = () => {
+  const [t] = useTranslation("global");
   return (
     <div className='about_card_content_container container' data-aos="zoomIn">
-    <InstructorCard color='#EF4444' icon={<FaUsers size={40} />} title={<Counter endValue={63} />} desc='Students Enrolled' />
-    <InstructorCard color='#F97316' icon={<GiEvilBook size={40} />} title={<Counter endValue={20} />} desc='Total Courses' />
-    <InstructorCard color='#A855F7' icon={<FaGraduationCap size={40} />} title={<Counter endValue={4} />} desc='Online Learners' />
-    <InstructorCard color='#6366F1' icon={<GiWorld size={40} />} title={<Counter endValue={3} />} desc='Online Teachers' />
+    <InstructorCard color='#EF4444' icon={<FaUsers size={40} />} title={<Counter endValue={63} />} desc={t("homepage.content_15")} />
+    <InstructorCard color='#F97316' icon={<GiEvilBook size={40} />} title={<Counter endValue={20} />} desc={t("homepage.content_16")} />
+    <InstructorCard color='#A855F7' icon={<FaGraduationCap size={40} />} title={<Counter endValue={4} />} desc={t("homepage.content_17")} />
+    <InstructorCard color='#6366F1' icon={<GiWorld size={40} />} title={<Counter endValue={3} />} desc={t("homepage.content_18")} />
   </div>
   )
 }

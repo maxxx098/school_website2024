@@ -1,54 +1,34 @@
 import React from "react";
 import './team.css';
 import Image_1 from './assets/jpeg/proxy-image.jpeg'
+import { useTranslation } from "react-i18next";
 const Team = () => {
-  
-
+  const [t] = useTranslation("global");
   return (
-   <section className="team__section" data-aos="fade-zoomIn">
-     <div className="section___container ">
-    <div className="team__header">
-      <p>TESTIMONIALS</p>
-      <h1>What our clients say about us.</h1>
-    </div>
-    <div className="testimonials__grid">
-      <div className="card__team" data-aos="fade-zoomIn">
-        <span><i className="ri-double-quotes-l"></i></span>
-        <p>
-        My gratitude goes out to you - an incredible tutor - for the wonderful lessons you have taught me. Also, thank you so much for your kindness and assistance.
-        </p>
-        <hr />
-        <img src={Image_1} alt="user" />
-        <p className="name">Camille C. </p>
+    <section className="team__section" data-aos="fade-zoomIn">
+    <div className="section___container">
+      <div className="team__header">
+        <p>{t('testimonials_section.header.subtitle')}</p>
+        <h1>{t('testimonials_section.header.title')}</h1>
       </div>
-      <div className="card__team" data-aos="fade-zoomIn">
-        <span><i className="ri-double-quotes-l"></i></span>
-        <p>
-        At the beginning of 2024, I attempted the IELTS exam and passed it with flying colours with her assistance. I highly recommend Inkscribe.  I consider myself very lucky to have Inkscribe assist me on my journey.
-        </p>
-        <hr />
-        <img src={Image_1} alt="user" />
-        <p className="name">Aneta M.</p>
+      <div className="testimonials__grid">
+        {t('testimonials_section.testimonials', { returnObjects: true }).map((testimonial, index) => (
+          <div className="card__team" key={index} data-aos="fade-zoomIn">
+            <span><i className="ri-double-quotes-l"></i></span>
+            <p>{testimonial.quote}</p>
+            <hr />
+            <img src={Image_1} alt="user" />
+            <p className="name">{testimonial.name}</p>
+          </div>
+        ))}
       </div>
-      <div className="card__team" data-aos="fade-zoomIn">
-        <span><i className="ri-double-quotes-l"></i></span>
-        <p>
-        Inkscribe has the best teacher I have ever met. I took lessons with Sharon in preparation for the FCT exam. The course was incredibly organized, and I exceeded my target score.
-        </p>
-        <hr />
-        <img src={Image_1} alt="user" />
-        <p className="name">Chris Z.</p>
+      <div className="footer__team">
+        <h4>{t('testimonials_section.footer.title')}</h4>
+        <p>{t('testimonials_section.footer.description')}</p>
+        <button>{t('testimonials_section.footer.button')}</button>
       </div>
     </div>
-    <div className="footer__team">
-      <h4>No two learning paths are the same!</h4>
-      <p>
-      Inkscribe, combined with your unique learning goals, enables us to craft a personalized study plan tailored just for you.
-      </p>
-      <button>GET A QUOTE</button>
-    </div>
-  </div>
-   </section>
+  </section>
   );
 };
 

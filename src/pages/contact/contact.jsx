@@ -1,7 +1,14 @@
 import React from 'react';
 import './contact.css';
+import { useTranslation } from 'react-i18next';
+import { useTransition } from "../../common/TransitionContext";
 
 const Contact = () => {
+
+  const { isFading } = useTransition();
+
+  const { t } = useTranslation("global");
+
   const generateWhatsAppLink = (phoneNumber, message) => {
     const formattedNumber = phoneNumber.replace(/\D/g, ''); 
     const encodedMessage = encodeURIComponent(message);  
@@ -18,13 +25,16 @@ const Contact = () => {
 
   return (
     <section className="hero_section">
+      <div className={`fade ${isFading ? "hidden" : ""}`}>
       <div className="hero_box container">
-        <p className='hero_box_paragraph' data-aos="fade-zoomIn">HOME / PAGE / <span>CONTACT US</span></p>
-        <h1 className='hero_header-1' data-aos="fade-zoomIn">
-          Reach us instantly on WhatsApp <br /> for support!
+        <p className='hero_box_paragraph' data-aos="fade-zoomIn">
+          {t('contact.breadcrumbs')} <span>{t('contact.breadcrumbs_span')}</span>
+        </p>
+        <h1 className='contact_header' data-aos="fade-zoomIn">
+          {t('contact.title')}
         </h1>
         <p className='classes_paragraph' data-aos="fade-zoomIn">
-          Learn how to communicate effectively in the workplace.
+          {t('contact.description')}
         </p>
       </div>
       <div className="hero_box_button">
@@ -34,8 +44,9 @@ const Contact = () => {
             alt="WhatsApp Logo"
             className='contact_image'
           />
-          Chat with Us on WhatsApp
+          {t('contact.chat_button')}
         </button>
+      </div>
       </div>
     </section>
   );

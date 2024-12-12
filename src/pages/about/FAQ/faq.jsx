@@ -1,7 +1,9 @@
 import React, { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./faq.css";
 
 const Faq = () => {
+  const { t } = useTranslation("global");
   const [expandedIndex, setExpandedIndex] = useState(null);
   const toggleAccordion = (index) => {
     setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
@@ -9,37 +11,32 @@ const Faq = () => {
 
   const faqData = [
     {
-      question: " What is Inkscribe Writers?",
-      answer:
-        "Inkscribe Writers is an educational platform dedicated to helping individuals improve their English proficiency and writing skills. We offer courses, tutorials, and resources tailored to learners of all levels.",
+      question: t("faq.what_is_inkscribe"),
+      answer: t("faq.inkscribe_description"),
     },
     {
-      question: "Who can benefit from your services?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+      question: t("faq.who_can_benefit"),
+      answer: t("faq.benefit_description"),
     },
     {
-      question: "How can I enroll in a course?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+      question: t("faq.how_to_enroll"),
+      answer: t("faq.enroll_description"),
     },
     {
-      question: "Are the courses online or in-person?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+      question: t("faq.online_or_inperson"),
+      answer: t("faq.online_inperson_description"),
     },
     {
-      question: "What payment methods do you accept?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.",
+      question: t("faq.payment_methods"),
+      answer: t("faq.payment_description"),
     },
   ];
 
   return (
     <section className="faq_section" data-aos="fade-zoomIn">
       <div className="faq_container" data-aos="fade-zoomIn">
-        <h2>FAQ</h2>
-        <p>We’ve got the answers</p>
+        <h2>{t("faq.title")}</h2>
+        <p>{t("faq.subtitle")}</p>
         <div className="accordion">
           {faqData.map((item, index) => (
             <div
@@ -57,8 +54,8 @@ const Faq = () => {
                 <span className="icon" aria-hidden="true"></span>
               </button>
               {expandedIndex === index && (
-                <div className="accordion-content" >
-                  <p >{item.answer}</p>
+                <div className="accordion-content">
+                  <p>{item.answer}</p>
                 </div>
               )}
             </div>
@@ -70,4 +67,5 @@ const Faq = () => {
 };
 
 export default Faq;
+
 

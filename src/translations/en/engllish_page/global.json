@@ -1,0 +1,560 @@
+{
+    "head": {
+        "header_1": "INKSCRIBE"
+    },
+    "content": {
+        "span": "WRITING & EDUCATION"
+    },
+    "nav" : {
+        "content_1":"Home",
+        "content_2":"About Us",
+        "content_3":"Services",
+        "content_4":"Classes",
+        "content_5":"English Standardize Test Prep",
+        "content_6":"General English Classes",
+        "content_7":"Business English ",
+        "content_8":"Blog",
+        "content_9":"Contact",
+        "content_10":"Language",
+        "content_11":"Book a Class",
+        "content_12":"Category",
+        "content_13":"Log In"
+    },
+    "homepage" : {
+        "content_1":"Welcome to Inckscribe",
+        "content_2":"Unlock Your Academic Potential with InkScribe.",
+        "content_3":"Our expert writers and tutors are dedicated to your success.We provide the guidance and tools you need to achieve your goals.",
+        "content_4":"GET STARTED NOW",
+        "content_5":"450K",
+        "content_6":"Assisted Student",
+        "content_7":"Congratulations ",
+        "content_8":"Your admission completed",
+        "content_9":"Learn About Us",
+        "content_10":"10 + YEARS OF  EXPERIENCE",
+        "content_11":"As passionate educators and writers, we have over 10 years of experience teaching English to students of all levels and abilities. Our expertise has helped students gain admission to schools, and we have assisted professionals in writing research papers and translating their knowledge in the workplace.",
+        "content_12":"GEt STARTED NOW",
+        "content_13":"We Are Proud",
+        "content_14":"You don't have to struggle alone, you've got our assistance and help.",
+        "content_15":"Students Enrolled",
+        "content_16":"Total Courses",
+        "content_17":"Online Learners",
+        "content_18":"Online Teachers",
+        "content_19":"Find The Right Online Course For You",
+        "content_20":"You don't have to struggle alone, you've got our assistance and help.",
+        "content_21":"READ MORE"
+    },
+    "course": {
+        "celpip_general_class": "CELPIP General Class",
+        "ielts_general_preparation": "IELTS General Preparation",
+        "ielts_general_prep_class": "IELTS General Prep Class",
+        "price": "CA$20.00",
+        "content": {
+          "celpip_general_class": "The CELPIP General Class helps individuals improve English skills for everyday communication, work, and immigration through targeted practice.",
+          "ielts_general_preparation": "Designed to help individuals prepare for the IELTS Academic test, focusing on English proficiency for academic and professional purposes.",
+          "ielts_general_prep_class": "The IELTS General Prep Class helps individuals improve English for everyday communication, work, and migration through focused practice and strategies."
+        }
+    },
+    "services_extension": {
+    "how_it_works": "How it Works?",
+    "team_help": "Our experienced team of writers and tutors is here to help you succeed.",
+    "school_application": {
+      "title": "School Application",
+      "description": "Apply now for a seamless school application process—simple, fast, and secure."
+    },
+    "english_classes": {
+      "title": "English Classes",
+      "description": "Master English with interactive classes at an affordable price."
+    },
+    "writing_editing": {
+      "title": "Writing Editing",
+      "description": "Elevate your writing with professional editing at an affordable price."
+    }
+  },
+  "services_section": {
+    "school_application": {
+      "title": "School Application",
+      "description": "Apply now for a seamless school application process—simple, fast, and secure."
+    }
+  },
+  "testimonials_section": {
+    "header": {
+      "title": "What our clients say about us.",
+      "subtitle": "TESTIMONIALS"
+    },
+    "testimonials": [
+      {
+        "quote": "My gratitude goes out to you - an incredible tutor - for the wonderful lessons you have taught me. Also, thank you so much for your kindness and assistance.",
+        "name": "Camille C."
+      },
+      {
+        "quote": "At the beginning of 2024, I attempted the IELTS exam and passed it with flying colours with her assistance. I highly recommend Inkscribe. I consider myself very lucky to have Inkscribe assist me on my journey.",
+        "name": "Aneta M."
+      },
+      {
+        "quote": "Inkscribe has the best teacher I have ever met. I took lessons with Sharon in preparation for the FCT exam. The course was incredibly organized, and I exceeded my target score.",
+        "name": "Chris Z."
+      }
+    ],
+    "footer": {
+      "title": "No two learning paths are the same!",
+      "description": "Inkscribe, combined with your unique learning goals, enables us to craft a personalized study plan tailored just for you.",
+      "button": "GET A QUOTE"
+    }
+  },
+  "banner_section": {
+    "header": "Connect with educators to enhance learning.",
+    "paragraph": "Subscribe to our monthly newsletter for tips, free learning resources and promotions.",
+    "input_placeholder": "Put your message here",
+    "button": "Subscribe"
+  },
+  "footer_section": {
+    "brand_name": "INKSCRIBE",
+    "tagline": "WRITING & EDUCATION",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "office": {
+      "title": "Office",
+      "address": [
+        "Canada",
+        "123 ST. Road",
+        "+123456",
+        "sharon@inkscribewriters.com",
+        "Ohio"
+      ]
+    },
+    "links": {
+      "title": "Links",
+      "home": "Home",
+      "privacy_policy": "Privacy & Policy",
+      "services": "Services",
+      "contact_us": "Contact Us",
+      "terms_conditions": "Terms & Conditions"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "placeholder": "Enter your email",
+      "button": "SUBSCRIBE"
+    },
+    "footer_bottom": "Inkscribe @ 2024 - All Rights Reserved"
+  },
+  "hero_section": {
+    "breadcrumb": "HOME / PAGE /",
+    "span": "ABOUT US",
+    "header": "Where expertise meets your success.",
+    "description": "Our mission is to offer classes, expert writing services, and support to empower individuals to reach their full potential in academic and professional environments.",
+    "get_started": "GET STARTED",
+    "book_now": "BOOK NOW"
+  },
+  "faq": {
+    "title": "FAQ",
+    "subtitle": "We’ve got the answers",
+    "what_is_inkscribe": "What is Inkscribe Writers?",
+    "inkscribe_description": "Inkscribe Writers is an educational platform dedicated to helping individuals improve their English proficiency and writing skills...",
+    "who_can_benefit": "Who can benefit from your services?",
+    "benefit_description": "Lorem ipsum dolor sit amet...",
+    "how_to_enroll": "How can I enroll in a course?",
+    "enroll_description": "Lorem ipsum dolor sit amet...",
+    "online_or_inperson": "Are the courses online or in-person?",
+    "online_inperson_description": "Lorem ipsum dolor sit amet...",
+    "payment_methods": "What payment methods do you accept?",
+    "payment_description": "Lorem ipsum dolor sit amet..."
+  },
+  "services": {
+    "page_title": "SERVICES",
+    "hero_title": "Writing Services",
+    "hero_subtitle": "Our experts understand the criteria that schools are looking for.",
+    "get_started": "GET STARTED",
+    "book_now": "BOOK NOW"
+  },
+  "service": {
+    "general_writing_editing": "General Writing & Editing",
+    "general_writing_paragraph": "Need a quick editing for your paper? Or assistance with an academic paper or essay?",
+    "academic_editing": "Academic Editing",
+    "academic_writing": "Academic Writing",
+    "general_editing": "General Editing",
+    "price_1": "$25/hr",
+    "price_2": "$30/hr",
+    "price_3": "$20/hr",
+    "resume_cv_services": "Resume & CV Services",
+    "resume_paragraph": "Elevate your resume to stand out and secure your ideal job.",
+    "resume_editing": "Resume & CV Editing",
+    "commercial_resumes": "Commercial Resumes & CV",
+    "executive_resumes": "Executive Resumes & CV",
+    "price_4": "$100",
+    "price_5": "$300",
+    "price_6": "$500",
+    "application_letters": "Application Letters",
+    "application_paragraph": "Craft a compelling application letter to stand out from the competition.",
+    "private_school_application": "Private School Application Letter",
+    "university_application": "University Application Letter",
+    "advanced_university_application": "Advanced University Application",
+    "price_7": "$800 CAD",
+    "price_8": "$1500 CAD",
+    "price_9": "$2500 CAD",
+    "book_free_consult": "Book a free consult"
+  },
+  "service_content": {
+    "toefl_classes": "TOEFL Classes",
+    "toefl_classes_paragraph": "Prepare for the TOEFL exam with expert guidance.",
+    "toefl_test_prep": "TOEFL Test Prep",
+    "toefl_writing_master_classes": "TOEFL Writing Master Classes",
+    "toefl_speaking_reading_master_class": "TOEFL Speaking & Reading Master Class",
+    "price_1": "$45 CAD (One-on-one)",
+    "price_2": "$20 CAD (Group Call)",
+    "price_3": "$50 CAD (Full Package)",
+    "ielts_classes": "IELTS Classes",
+    "ielts_classes_paragraph": "Get expert preparation for the IELTS Academic & General.",
+    "ielts_academic_general": "IELTS Academic/General",
+    "ielts_writing_master_class": "IELTS Writing Master Class",
+    "ielts_speaking_reading_master_class": "IELTS Speaking & Reading Master Class",
+    "price_4": "$45 CAD (One-on-one)",
+    "price_5": "$20 CAD (Group Call)",
+    "price_6": "$50 CAD (Full Package)",
+    "celpip_classes": "CELPIP Classes",
+    "celpip_classes_paragraph": "Prepare for the CELPIP exam with our expert classes.",
+    "celpip_general_prep": "CELPIP General Prep",
+    "celpip_writing_master_class": "CELPIP Writing Master Class",
+    "celpip_speaking_reading_master_class": "CELPIP Speaking & Reading Master Class",
+    "price_7": "$45 CAD (One-on-one)",
+    "price_8": "$20 CAD (Group Call)",
+    "price_9": "$50 CAD (Full Package)",
+    "next": "Next"
+  },
+  "classes": {
+    "breadcrumb_home": "HOME",
+    "breadcrumb_page": "PAGE",
+    "breadcrumb_classes": "CLASSES",
+    "header": "English Standardized Test Prep",
+    "paragraph": "Learn how to communicate effectively in the workplace.",
+    "get_started": "GET STARTED",
+    "book_now": "BOOK NOW"
+  },
+  "classes_2": {
+    "breadcrumb_home": "HOME",
+    "breadcrumb_page": "PAGE",
+    "breadcrumb_classes": "CLASSES",
+    "header": "General English Classes",
+    "paragraph": "Learn how to communicate effectively in the workplace.",
+    "get_started": "GET STARTED",
+    "book_now": "BOOK NOW"
+  },
+  "content_2": {
+    "header": "ENGLISH CLASSES",
+    "paragraph": "Our General English course will help you with daily talks, academic growth, and career advancement. You'll improve speaking, listening, reading, and writing skills through interactive lessons. Experienced instructors will support you, building confidence and fluency. Whether you're a beginner or want to improve, our course is tailored to your needs. Start reaching your language goals now.",
+    "button": "Get Yours Now"
+  },
+  "content_3": {
+    "home": "HOME",
+    "page": "PAGE",
+    "classes": "CLASSES",
+    "business_english_classes": "Business English Classes",
+    "communication_paragraph": "Learn how to communicate effectively in the workplace.",
+    "get_started": "GET STARTED",
+    "book_now": "BOOK NOW",
+    "one_on_one": "One-on-one",
+    "group_call": "Group Call",
+    "business_english": "Business English",
+    "ielts_classes": "IELTS Academic & General Classes",
+    "presentation_skills": "Presentation skills",
+    "role_play": "Role-play under real business scenarios",
+    "business_collocations": "Business collocations & phrases",
+    "ielts_academic_general": "IELTS (Academic/General)",
+    "ielts_writing_master": "IELTS Writing Master Class",
+    "ielts_speaking_reading": "IELTS Speaking & Reading Master Class",
+    "next": "Next"
+  },
+  "pricing": {
+    "classes_plan": "Classes Plan",
+    "best_plan": "Find the best way for you",
+    "beginner": "Beginners",
+    "price_1": "25",
+    "starts": "Starts",
+    "beginner_description": "For most businesses that want to optimize their web queries.",
+    "intermediate": "Intermediate",
+    "price_2": "30",
+    "intermediate_description": "For most businesses that want to optimize their web queries.",
+    "advanced": "Advanced",
+    "price_3": "30",
+    "advanced_description": "For most businesses that want to optimize their web queries.",
+    "one_on_one_lesson": "One-on-one lesson",
+    "group_call_lesson": "Group Call lesson",
+    "choose_plan": "Choose Plan"
+  },
+  "testimonial": {
+    "header": "What's Up?",
+    "text": "Need help updating your resume and cover letters? Need help updating your resume and cover letters?",
+    "learn_more": "LEARN MORE"
+  },
+  "blog": {
+    "title": "Info Blog",
+    "subtitle": "Join us as we explore the art and craft of writing, one post at a time.",
+    "date": "3 / 20 / 21",
+    "read_time": "2 min read",
+    "comments": "2",
+    "explore": "Explore",
+    "post_1": {
+      "title": "MIT Supplemental Essay",
+      "subtitle": "Your key to writing an impressive essay"
+    },
+    "post_2": {
+      "title": "Application Portals",
+      "subtitle": "The different application portals that can be"
+    },
+    "post_3": {
+      "title": "MIT Supplemental Essay",
+      "subtitle": "Your key to writing an impressive essay"
+    },
+    "breadcrumbs": "HOME / PAGE /",
+    "breadcrumbs_span": "BLOG",
+    "welcome_title": "Welcome to the InkScribe Writers Blog!",
+    "description": "We are a passionate team of writing experts committed to inspiring and empowering individuals on their journey to success.",
+    "get_started": "GET STARTED",
+    "book_now": "BOOK NOW"
+  },
+  "contact": {
+    "breadcrumbs": "HOME / PAGE / ",
+    "breadcrumbs_span": "CONTACT US",
+    "title": "Reach us instantly on WhatsApp for support!",
+    "description": "Learn how to communicate effectively in the workplace.",
+    "chat_button": "Chat with Us on WhatsApp"
+  },
+  "booking": {
+    "booking": "BOOKING",
+    "findBestClasses": "Find the Best Classes for You",
+    "learnCommunication": "Learn how to communicate effectively in the workplace.",
+    "getStarted": "GET STARTED",
+    "classes": "CLASSES",
+    "celpipGeneralClass": "CELPIP General Class",
+    "celpipGeneralClassContent": "The CELPIP General Class helps individuals improve English skills for everyday communication, work, and immigration through targeted practice.",
+    "ieltsGeneralPreparation": "IELTS General Preparation",
+    "ieltsGeneralPreparationContent": "Designed to help individuals prepare for the IELTS Academic test, focusing on English proficiency for academic and professional purposes.",
+    "ieltsGeneralPrepClass": "IELTS General Prep Class",
+    "ieltsGeneralPrepClassContent": "The IELTS General Prep Class helps individuals improve English for everyday communication, work, and migration through focused practice and strategies.",
+    "ieltsListeningReadingMasterClass": "IELTS Listening & Reading Master Class",
+    "ieltsListeningReadingMasterClassContent": "The IELTS Listening & Reading Master Class helps individuals enhance their skills in listening and reading comprehension through focused practice and strategies.",
+    "ieltsWritingMasterClass": "IELTS Writing Master Class",
+    "ieltsWritingMasterClassContent": "The IELTS Writing Master Class (Academic Edition) helps individuals improve their academic writing skills, focusing on task responses, coherence, and grammar through detailed practice and strategies.",
+    "toeflGeneralClass": "TOEFL General Class",
+    "toeflGeneralClassContent": "The TOEFL General Class helps individuals improve their English skills for academic and professional purposes, focusing on all test sections—Listening, Reading, Speaking, and Writing—through targeted practice and strategies.",
+    "toeflSpeakingListeningMasterClass": "TOEFL Speaking & Listening Master Class",
+    "toeflSpeakingListeningMasterClassContent": "The TOEFL Speaking & Listening Master Class helps individuals enhance their skills in speaking and listening comprehension through focused practice and strategies.",
+    "toeflWritingMasterClass": "TOEFL Writing Master Class",
+    "toeflWritingMasterClassContent": "The TOEFL Writing Master Class (Academic Edition) helps individuals improve their writing skills for academic purposes through detailed practice and strategies.",
+    "academicEdition": "(Academic Edition)",
+    "generalEdition": "(General Edition)",
+    "readMore": "READ MORE"
+  },
+  "booking_1": {
+    "classTitle": "CELPIP General Class",
+    "price": "30 CAD",
+    "classDescription": "The CELPIP General Class helps individuals improve English skills for everyday communication, work, and immigration through targeted practice.",
+    "oneOnOneCall": "One on One Call",
+    "groupCall": "Group Call",
+    "overview": "OVERVIEW",
+    "classDescriptionHeader": "CLASS DESCRIPTION",
+    "descriptionIntro": "Designed to assess English language skills for individuals applying for permanent residency in Canada or other immigration programs. It evaluates the four key language skills:",
+    "descriptionDetails": "A CELPIP General Class would typically prepare students to excel in these sections. If you're organizing or attending such a class, here’s an outline of what it might include:",
+    "skills": {
+      "listening": "Listening",
+      "reading": "Reading",
+      "writing": "Writing",
+      "speaking": "Speaking"
+    },
+    "objectives": {
+      "objectives":"CLASS OBJECTIVES",
+      "familiarize": "Familiarize students with the CELPIP test format and scoring.",
+      "developSkills": "Develop skills specific to CELPIP’s tasks and question types.",
+      "enhanceProficiency": "Enhance overall English language proficiency.",
+      "buildConfidence": "Build confidence for test day."
+    },
+    "features": {
+      "title":"CLASS FEATURES",
+      "lectures": "Lectures",
+      "lectureCount": "3",
+      "duration": "Duration",
+      "durationTime": "1 Hour",
+      "level": "Level",
+      "levelType": "Beginner",
+      "language": "Language",
+      "languageType": "English"
+    }
+  },
+  "booking_2": {
+    "booking": "Booking",
+    "findBestClasses": "Find the Best Classes",
+    "learnCommunication": "Learn Communication Skills for Success",
+    "getStarted": "Get Started",
+    "classes": "Classes",
+    "classImageAlt": "Photo of IELTS General Prep Class",
+    "ieltsClassTitle": "IELTS General Prep Class",
+    "classPrice": "30 CAD",
+    "classDescription": "The IELTS General Prep Class helps individuals improve English skills for everyday communication, work, and immigration through targeted practice.",
+    "oneOnOneCall": "One on One Call",
+    "groupCall": "Group Call",
+    "overview": "OVERVIEW",
+    "classDescriptionTitle": "CLASS DESCRIPTION",
+    "classDetailedDescription": "The IELTS General Class is tailored for individuals aiming to succeed in the International English Language Testing System (IELTS) General Training module...",
+    "listening": "Listening",
+    "reading": "Reading",
+    "writing": "Writing",
+    "speaking": "Speaking",
+    "classObjectives": "By the end of the class, students will:",
+    "classObjectivesTitle": "Class Objectives",
+    "objective1": "Master the IELTS General Training test format...",
+    "objective2": "Apply effective strategies for each test section...",
+    "objective3": "Improve listening skills...",
+    "objective4": "Develop reading techniques...",
+    "classFeaturesTitle": "CLASS FEATURES",
+    "lectures": "Lectures",
+    "duration": "Duration",
+    "hour": "Hour",
+    "level": "Level",
+    "beginner": "Beginner",
+    "language": "Language",
+    "english": "English"
+  },
+  "booking_3": {
+        "imageAlt": "IELTS General Class",
+      "classTitle": "IELTS General Class",
+      "price": "30 CAD",
+      "classDescription": "The CELPIP General Class helps individuals improve English skills for everyday communication, work, and immigration through targeted practice.",
+      "oneOnOneCall": "One on One Call",
+      "groupCall": "Group Call",
+      "overview": "Overview",
+      "classDescriptionHeader": "Class Description",
+      "descriptionIntro": "The IELTS General Class is tailored for individuals aiming to succeed in the International English Language Testing System (IELTS) General Training module. This test is a vital requirement for those pursuing immigration, work opportunities, or secondary education in English-speaking countries.",
+      "skills": {
+        "listening": "Listening",
+        "reading": "Reading",
+        "writing": "Writing",
+        "speaking": "Speaking"
+      },
+      "descriptionDetails": "By the end of the class, students will:",
+      "objectivesHeader": "Class Objectives:",
+      "objectives": {
+        "familiarize": "Master the IELTS General Training test format, band descriptors, and scoring criteria.",
+        "applyStrategies": "Apply effective strategies for each test section to optimize time and accuracy.",
+        "improveListening": "Improve listening skills to understand spoken English in a variety of accents and contexts.",
+        "developReading": "Develop reading techniques to quickly analyze and respond to workplace and general interest texts."
+      },
+      "features": {
+        "title": "Class Features",
+        "lectures": "Lectures",
+        "lectureCount": "3",
+        "duration": "Duration",
+        "durationTime": "1 Hour",
+        "level": "Level",
+        "levelType": "Beginner",
+        "language": "Language",
+        "languageType": "English"
+      }
+    },
+    "booking_4": {
+            "imageAlt": "IELTS Listening & Reading Master Class",
+            "classTitle": "IELTS Listening & Reading Master Class",
+            "price": "30 CAD",
+            "classDescription": "The IELTS Listening & Reading Master Class helps individuals excel in the comprehension components of the IELTS exam through focused practice and strategic guidance.",
+            "oneOnOneCall": "One on One Call",
+            "groupCall": "Group Call",
+            "overview": "Overview",
+            "classDescriptionHeader": "Class Description",
+            "descriptionIntro": "The IELTS Listening & Reading Master Class is tailored for individuals aiming to improve their skills in the comprehension aspects of the IELTS General Training module. This course is crucial for those seeking immigration, employment, or further studies in English-speaking countries.",
+            "skills": {
+              "listening": "Listening",
+              "reading": "Reading",
+              "writing": "Writing",
+              "speaking": "Speaking"
+            },
+            "descriptionDetails": "By the end of the class, students will:",
+            "objectivesHeader": "Class Objectives:",
+            "objectives": {
+              "familiarize": "Master the IELTS Listening and Reading test formats, band descriptors, and scoring criteria.",
+              "applyStrategies": "Apply effective strategies for comprehension to optimize accuracy and time management.",
+              "improveListening": "Enhance listening skills to understand diverse accents and complex contexts.",
+              "developReading": "Strengthen reading techniques to analyze and respond to varied texts efficiently."
+            },
+            "features": {
+              "title": "Class Features",
+              "lectures": "Lectures",
+              "lectureCount": "3",
+              "duration": "Duration",
+              "durationTime": "1 Hour",
+              "level": "Level",
+              "levelType": "Beginner",
+              "language": "Language",
+              "languageType": "English"
+            }
+        },
+            "booking_5": {
+                "imageAlt": "IELTS Writing Master Class",
+                "classTitle": "IELTS Writing Master Class",
+                "price": "30 CAD",
+                "classDescription": "The IELTS Writing Master Class helps individuals excel in the writing components of the IELTS exam through focused practice and strategic guidance.",
+                "oneOnOneCall": "One on One Call",
+                "groupCall": "Group Call",
+                "overview": "Overview",
+                "classDescriptionHeader": "Class Description",
+                "descriptionIntro": "The IELTS Writing Master Class is tailored for individuals aiming to improve their skills in the writing aspects of the IELTS General Training module. This course is crucial for those seeking immigration, employment, or further studies in English-speaking countries.",
+                "skills": {
+                  "listening": "Listening",
+                  "reading": "Reading",
+                  "writing": "Writing",
+                  "speaking": "Speaking"
+                },
+                "descriptionDetails": "By the end of the class, students will:",
+                "objectivesHeader": "Class Objectives:",
+                "objectives": {
+                  "familiarize": "Master the IELTS Writing test formats, band descriptors, and scoring criteria.",
+                  "applyStrategies": "Apply effective strategies for writing tasks to optimize coherence and accuracy.",
+                  "improveListening": "Enhance critical thinking to structure and express ideas clearly in written English.",
+                  "developReading": "Strengthen skills to meet task requirements and time management in writing tasks."
+                },
+                "features": {
+                  "title": "Class Features",
+                  "lectures": "Lectures",
+                  "lectureCount": "3",
+                  "duration": "Duration",
+                  "durationTime": "1 Hour",
+                  "level": "Level",
+                  "levelType": "Beginner",
+                  "language": "Language",
+                  "languageType": "English"
+                }
+              },
+                "booking_6": {
+                    "imageAlt": "TOEFL General Class",
+                    "classTitle": "TOEFL General Class",
+                    "price": "30 CAD",
+                    "classDescription": "The TOEFL General Class helps individuals improve their English skills for academic success and everyday communication.",
+                    "oneOnOneCall": "One on One Call",
+                    "groupCall": "Group Call",
+                    "overview": "Overview",
+                    "classDescriptionHeader": "Class Description",
+                    "descriptionIntro": "The TOEFL General Class is tailored for individuals aiming to succeed in the Test of English as a Foreign Language (TOEFL). This test is vital for students and professionals seeking opportunities in English-speaking environments.",
+                    "skills": {
+                      "listening": "Listening",
+                      "reading": "Reading",
+                      "writing": "Writing",
+                      "speaking": "Speaking"
+                    },
+                    "descriptionDetails": "By the end of the class, students will:",
+                    "objectivesHeader": "Class Objectives:",
+                    "objectives": {
+                      "familiarize": "Understand the TOEFL test structure, scoring criteria, and task requirements.",
+                      "applyStrategies": "Apply effective strategies for all TOEFL test sections.",
+                      "improveListening": "Enhance listening skills to comprehend a variety of academic and conversational English.",
+                      "developReading": "Develop reading strategies for academic texts and critical analysis."
+                    },
+                    "features": {
+                      "title": "Class Features",
+                      "lectures": "Lectures",
+                      "lectureCount": "3",
+                      "duration": "Duration",
+                      "durationTime": "1 Hour",
+                      "level": "Level",
+                      "levelType": "Beginner",
+                      "language": "Language",
+                      "languageType": "English"
+                    }
+                  }
+
+}

@@ -1,24 +1,41 @@
 import React from 'react'
 import './about_hero.css'
 import { NavLink } from 'react-router-dom'
+import { useTranslation } from 'react-i18next';
+import { useTransition } from "../../../common/TransitionContext";
 const about_hero = () => {
+  const { isFading } = useTransition();
+  const [t] = useTranslation("global");
   return (
     <>
     <section className="hero_section">
-        <div className="hero_box">
-           <p className='hero_box_paragraph' data-aos="fade-zoomIn">HOME / PAGE / <span>ABOUT US</span></p>
-            <h1 className='hero_header-1'data-aos="fade-zoomIn"> Where expertise meets your success.</h1>
-            <p className='hero_hero_hero'data-aos="fade-zoomIn" >Our mission is to offer classes, expert writing services, and support to empower individuals to reach their full potential in academic and professional environments.</p>
-            <div className="banner_box">
-            </div>
+    <div className={`fade ${isFading ? "hidden" : ""}`}>
+      <div className="hero_box">
+        <p className='hero_box_paragraph' data-aos="fade-zoomIn">
+          {t('hero_section.breadcrumb')} <span>{t('hero_section.span')}</span>
+        </p>
+        <h1 className='hero_header-1' data-aos="fade-zoomIn">
+          {t('hero_section.header')}
+        </h1>
+        <p className='hero_hero_hero' data-aos="fade-zoomIn">
+          {t('hero_section.description')}
+        </p>
+        <div className="banner_box">
         </div>
-        <div className="hero_box_button">
-           <div className="hero_box_container_buuton">
-           <button className='button-1'data-aos="fade-right"><a href="#home_section">  GET STARTED</a></button>
-           <button className='button-2'data-aos="fade-left"><NavLink to='/booking'>BOOK NOW</NavLink></button>
-           </div>
+      </div>
+      <div className="hero_box_button">
+        <div className="hero_box_container_buuton">
+          <button className='button-1' data-aos="fade-right">
+            <a href="#home_section">{t('hero_section.get_started')}</a>
+          </button>
+          <button className='button-2' data-aos="fade-left">
+            <NavLink to='/booking'>{t('hero_section.book_now')}</NavLink>
+          </button>
         </div>
-    </section>
+      </div>
+  </div>
+</section>
+
     </>
   )
 }

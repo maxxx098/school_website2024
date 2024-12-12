@@ -1,0 +1,575 @@
+{
+    "head": {
+        "header_1": "墨迹书写"
+    },
+    "content": {
+        "span": "写作与教育写作与教育"
+    },
+   "nav": {
+    "content_1": "首页",
+    "content_2": "关于我们",
+    "content_3": "服务",
+    "content_4": "课程",
+    "content_5": "英语标准化考试准备",
+    "content_6": "普通英语课程",
+    "content_7": "商务英语",
+    "content_8": "博客",
+    "content_9": "联系我们",
+    "content_10": "语言",
+    "content_11": "预约课程",
+    "content_12": "类别",
+    "content_13": "登录"
+},
+"homepage" : {
+    "content_1": "欢迎来到InkScribe",
+    "content_2": "释放你的学术潜力，与InkScribe一起。",
+    "content_3": "我们的专业作家和导师致力于帮助您取得成功。我们提供您实现目标所需的指导和工具。",
+    "content_4": "立即开始",
+    "content_5": "450K",
+    "content_6": "帮助过的学生",
+    "content_7": "恭喜",
+    "content_8": "您的录取已完成",
+    "content_9": "了解我们",
+    "content_10": "10年以上经验",
+    "content_11": "作为充满激情的教育者和作家，我们拥有超过10年的英语教学经验，适用于各个水平和能力的学生。我们的专业知识帮助学生获得学校录取，并协助专业人士撰写研究论文，将他们的知识转化到职场中。",
+    "content_12": "立即开始",
+    "content_13": "我们感到自豪",
+    "content_14": "您无需独自奋斗，我们将为您提供帮助和支持。",
+    "content_15": "已注册学生",
+    "content_16": "总课程数",
+    "content_17": "在线学习者",
+    "content_18": "在线教师",
+    "content_19": "找到适合您的在线课程",
+    "content_20": "您无需独自奋斗，我们将为您提供帮助和支持。",
+    "content_21": "阅读更多"
+},
+"course": {
+    "celpip_general_class": "CELPIP普通班",
+    "ielts_general_preparation": "IELTS普通班备考",
+    "ielts_general_prep_class": "IELTS普通备考课程",
+    "price": "CA$20.00",
+    "content": {
+      "celpip_general_class": "CELPIP普通班帮助个人通过有针对性的练习提高日常沟通、工作和移民的英语技能。",
+      "ielts_general_preparation": "旨在帮助个人为IELTS学术考试做好准备，重点提升学术和职业用途的英语能力。",
+      "ielts_general_prep_class": "IELTS普通备考课程帮助个人通过集中练习和策略提升日常沟通、工作和移民所需的英语能力。"
+    },
+    "find_right_online_course": "找到适合您的在线课程",
+    "assistance_message": "您无需独自奋斗，我们将为您提供帮助和支持。",
+    "read_more": "阅读更多"
+  },
+   "services_extension": {
+    "how_it_works": "如何运作？",
+    "team_help": "我们经验丰富的写作团队和辅导员在这里帮助您取得成功。",
+    "school_application": {
+      "title": "学校申请",
+      "description": "立即申请，享受无缝的学校申请流程——简单、快速、安全。"
+    },
+    "english_classes": {
+      "title": "英语课程",
+      "description": "通过互动课程，以实惠的价格掌握英语。"
+    },
+    "writing_editing": {
+      "title": "写作编辑",
+      "description": "通过专业编辑提升您的写作，价格实惠。"
+    }
+  },
+  "services_section": {
+    "school_application": {
+      "title": "学校申请",
+      "description": "立即申请，享受无缝的学校申请流程——简单、快速、安全。"
+    }
+  },
+  "testimonials_section": {
+    "header": {
+      "title": "我们的客户怎么说。",
+      "subtitle": "客户评价"
+    },
+    "testimonials": [
+      {
+        "quote": "我衷心感谢您这位了不起的导师，感谢您教给我的精彩课程。还要特别感谢您的友善和帮助。",
+        "name": "Camille C."
+      },
+      {
+        "quote": "在2024年初，我参加了雅思考试并在您的帮助下取得了优异的成绩。我高度推荐Inkscribe。我很幸运能在学习的过程中得到Inkscribe的帮助。",
+        "name": "Aneta M."
+      },
+      {
+        "quote": "Inkscribe拥有我遇到过的最好的老师。我和Sharon一起上课，准备FCT考试。课程安排非常有条理，我超出了目标分数。",
+        "name": "Chris Z."
+      }
+    ],
+    "footer": {
+      "title": "每个人的学习路径都不同！",
+      "description": "Inkscribe结合您的独特学习目标，帮助我们为您量身定制个性化的学习计划。",
+      "button": "获取报价"
+    }
+  },
+  "banner_section": {
+    "header": "与教育工作者连接，提升学习效果。",
+    "paragraph": "订阅我们的每月新闻通讯，获取学习技巧、免费学习资源和促销信息。",
+    "input_placeholder": "在此处输入您的信息",
+    "button": "订阅"
+  },
+  "footer_section": {
+    "brand_name": "INKSCRIBE",
+    "tagline": "写作与教育",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.",
+    "office": {
+      "title": "办公室",
+      "address": [
+        "加拿大",
+        "123 ST. 路",
+        "+123456",
+        "sharon@inkscribewriters.com",
+        "俄亥俄州"
+      ]
+    },
+    "links": {
+      "title": "链接",
+      "home": "首页",
+      "privacy_policy": "隐私政策",
+      "services": "服务",
+      "contact_us": "联系我们",
+      "terms_conditions": "条款与条件"
+    },
+    "newsletter": {
+      "title": "新闻订阅",
+      "placeholder": "请输入您的电子邮件",
+      "button": "订阅"
+    },
+    "footer_bottom": "Inkscribe @ 2024 - 保留所有权利"
+  },
+  "hero_section": {
+    "breadcrumb": "首页 / 页面 / 关于我们",
+    "span" : "关于我们",
+    "header": "专业与您的成功相遇。",
+    "description": "我们的使命是提供课程、专业写作服务和支持，帮助个人在学术和职业环境中实现其全部潜力。",
+    "get_started": "开始使用",
+    "book_now": "立即预定"
+  },
+  "faq": {
+    "title": "常见问题",
+    "subtitle": "我们为您解答",
+    "what_is_inkscribe": "什么是Inkscribe Writers？",
+    "inkscribe_description": "Inkscribe Writers 是一个致力于帮助个人提高英语水平和写作技能的教育平台。我们提供针对各个水平学习者的课程、教程和资源。",
+    "who_can_benefit": "谁可以受益于您的服务？",
+    "benefit_description": "任何想提高英语技能、写作技巧或准备英语考试的人都可以从我们的服务中受益。",
+    "how_to_enroll": "如何报名参加课程？",
+    "enroll_description": "您可以通过我们的官方网站选择课程并在线注册。我们还提供课程咨询服务，帮助您选择最适合的课程。",
+    "online_or_inperson": "课程是在线还是面对面授课？",
+    "online_inperson_description": "我们提供在线课程以及部分面对面授课选项。您可以根据个人需求选择。",
+    "payment_methods": "您接受哪些付款方式？",
+    "payment_description": "我们接受多种付款方式，包括信用卡、银行转账和在线支付平台。"
+  },
+  "services": {
+    "page_title": "服务",
+    "hero_title": "写作服务",
+    "hero_subtitle": "我们的专家理解学校所需的标准。",
+    "get_started": "开始使用",
+    "book_now": "立即预定"
+  },
+  "service": {
+    "general_writing_editing": "一般写作与编辑",
+    "general_writing_paragraph": "需要快速编辑你的论文吗？或者需要学术论文或作文的帮助？",
+    "academic_editing": "学术编辑",
+    "academic_writing": "学术写作",
+    "general_editing": "一般编辑",
+    "price_1": "￥25/小时",
+    "price_2": "￥30/小时",
+    "price_3": "￥20/小时",
+    "resume_cv_services": "简历与履历服务",
+    "resume_paragraph": "提升你的简历，脱颖而出，获得理想工作。",
+    "resume_editing": "简历与履历编辑",
+    "commercial_resumes": "商业简历与履历",
+    "executive_resumes": "高管简历与履历",
+    "price_4": "￥100",
+    "price_5": "￥300",
+    "price_6": "￥500",
+    "application_letters": "申请信",
+    "application_paragraph": "编写一个引人注目的申请信，使你从竞争中脱颖而出。",
+    "private_school_application": "私立学校申请信",
+    "university_application": "大学申请信",
+    "advanced_university_application": "高级大学申请信",
+    "price_7": "￥800 CAD",
+    "price_8": "￥1500 CAD",
+    "price_9": "￥2500 CAD",
+    "book_free_consult": "预约免费咨询",
+    "service": {
+    "toefl_classes": "托福课程",
+    "toefl_classes_paragraph": "通过我们的专家指导准备托福考试。",
+    "toefl_test_prep": "托福考试准备",
+    "toefl_writing_master_classes": "托福写作大师课程",
+    "toefl_speaking_reading_master_class": "托福口语和阅读大师课程",
+    "price_1": "45加元（单独辅导）",
+    "price_2": "20加元（小组通话）",
+    "price_3": "50加元（全套课程）",
+    "next": "下一步"
+  }
+  },
+  "service_content": {
+    "toefl_classes": "托福课程",
+    "toefl_classes_paragraph": "通过专家指导准备托福考试。",
+    "toefl_test_prep": "托福考试准备",
+    "toefl_writing_master_classes": "托福写作大师课程",
+    "toefl_speaking_reading_master_class": "托福口语和阅读大师课程",
+    "price_1": "45加元（单独辅导）",
+    "price_2": "20加元（小组通话）",
+    "price_3": "50加元（全套课程）",
+    "ielts_classes": "雅思课程",
+    "ielts_classes_paragraph": "获得雅思学术类和普通类的专家准备。",
+    "ielts_academic_general": "雅思学术类/普通类",
+    "ielts_writing_master_class": "雅思写作大师课程",
+    "ielts_speaking_reading_master_class": "雅思口语和阅读大师课程",
+    "price_4": "45加元（单独辅导）",
+    "price_5": "20加元（小组通话）",
+    "price_6": "50加元（全套课程）",
+    "celpip_classes": "CELPIP课程",
+    "celpip_classes_paragraph": "通过专家课程准备CELPIP考试。",
+    "celpip_general_prep": "CELPIP通用准备",
+    "celpip_writing_master_class": "CELPIP写作大师课程",
+    "celpip_speaking_reading_master_class": "CELPIP口语和阅读大师课程",
+    "price_7": "45加元（单独辅导）",
+    "price_8": "20加元（小组通话）",
+    "price_9": "50加元（全套课程）",
+    "next": "下一步"
+  },
+  "classes": {
+    "breadcrumb_home": "首页",
+    "breadcrumb_page": "页面",
+    "breadcrumb_classes": "课程",
+    "header": "英语标准化考试准备",
+    "paragraph": "学习如何在职场中有效沟通。",
+    "get_started": "开始学习",
+    "book_now": "立即预订"
+  },
+  "classes_2": {
+    "breadcrumb_home": "首页",
+    "breadcrumb_page": "页面",
+    "breadcrumb_classes": "课程",
+    "header": "通用英语课程",
+    "paragraph": "学习如何在职场中有效沟通。",
+    "get_started": "开始学习",
+    "book_now": "立即预订"
+  },
+  "content_2": {
+    "header": "英语课程",
+    "paragraph": "我们的通用英语课程将帮助您提高日常会话、学术成长和职业发展。您将通过互动课程提升口语、听力、阅读和写作技能。经验丰富的教师将支持您，帮助您建立信心并流利沟通。无论您是初学者还是想要提升，我们的课程都会根据您的需求量身定制。现在就开始实现您的语言目标吧。",
+    "button": "立即报名"
+  },
+  "content_3": {
+    "home": "首页",
+    "page": "页面",
+    "classes": "课程",
+    "business_english_classes": "商务英语课程",
+    "communication_paragraph": "学习如何在职场中有效沟通。",
+    "get_started": "开始",
+    "book_now": "立即预定",
+    "one_on_one": "一对一",
+    "group_call": "小组通话",
+    "business_english": "商务英语",
+    "ielts_classes": "雅思学术和普通类课程",
+    "presentation_skills": "演讲技巧",
+    "role_play": "在实际商业场景下进行角色扮演",
+    "business_collocations": "商业搭配和短语",
+    "ielts_academic_general": "雅思（学术/普通类）",
+    "ielts_writing_master": "雅思写作大师班",
+    "ielts_speaking_reading": "雅思口语和阅读大师班",
+    "next": "下一步"
+
+  },
+  "pricing": {
+    "classes_plan": "课程计划",
+    "best_plan": "找到适合你的最佳方式",
+    "beginner": "初学者",
+    "price_1": "25",
+    "starts": "起始",
+    "beginner_description": "适用于希望优化网络查询的大多数企业。",
+    "intermediate": "中级",
+    "price_2": "30",
+    "intermediate_description": "适用于希望优化网络查询的大多数企业。",
+    "advanced": "高级",
+    "price_3": "30",
+    "advanced_description": "适用于希望优化网络查询的大多数企业。",
+    "one_on_one_lesson": "一对一课程",
+    "group_call_lesson": "小组电话课程",
+    "choose_plan": "选择计划"
+  },
+  "testimonial": {
+    "header": "怎么了？",
+    "text": "需要帮助更新您的简历和求职信吗？需要帮助更新您的简历和求职信吗？",
+    "learn_more": "了解更多"
+  },
+  "blog": {
+    "title": "信息博客",
+    "subtitle": "加入我们，一次一个帖子，探索写作的艺术与技巧。",
+    "date": "3 / 20 / 21",
+    "read_time": "2分钟阅读",
+    "comments": "2",
+    "explore": "探索",
+    "post_1": {
+      "title": "MIT补充论文",
+      "subtitle": "写一篇令人印象深刻的论文的关键"
+    },
+    "post_2": {
+      "title": "申请门户",
+      "subtitle": "可以使用的不同申请门户"
+    },
+    "post_3": {
+      "title": "MIT补充论文",
+      "subtitle": "写一篇令人印象深刻的论文的关键"
+    },
+    "breadcrumbs": "首页 / 页面 / 博客",
+    "breadcrumbs_span": "博客",
+    "welcome_title": "欢迎来到 InkScribe Writers 博客！",
+    "description": "我们是一个充满激情的写作专家团队，致力于激励和赋能个人，在成功之路上迈出坚定的步伐。",
+    "get_started": "开始",
+    "book_now": "立即预约"
+  },
+  "contact": {
+    "breadcrumbs": "首页 / 页面 / ",
+    "breadcrumbs_span": "联系我们",
+    "title": "立即通过 WhatsApp 联系我们，获取支持！",
+    "description": "学习如何在工作场所有效沟通。",
+    "chat_button": "通过 WhatsApp 与我们聊天"
+  },
+  "booking": {
+    "booking": "预订",
+    "findBestClasses": "为您找到最好的课程",
+    "learnCommunication": "学习如何在工作场所有效沟通。",
+    "getStarted": "开始",
+    "classes": "课程",
+    "celpipGeneralClass": "CELPIP General Class",
+    "celpipGeneralClassContent": "CELPIP General 课程帮助个人通过针对性的练习提高日常沟通、工作和移民的英语技能。",
+    "ieltsGeneralPreparation": "雅思通用准备",
+    "ieltsGeneralPreparationContent": "旨在帮助个人准备雅思学术考试，重点提高学术和职业目的的英语能力。",
+    "ieltsGeneralPrepClass": "雅思通用预备班",
+    "ieltsGeneralPrepClassContent": "雅思通用预备班帮助个人通过集中练习和策略提高日常沟通、工作和移民英语。",
+    "ieltsListeningReadingMasterClass": "雅思听力与阅读大师班",
+    "ieltsListeningReadingMasterClassContent": "雅思听力与阅读大师班通过集中练习和策略帮助个人提高听力和阅读理解能力。",
+    "ieltsWritingMasterClass": "雅思写作大师班",
+    "ieltsWritingMasterClassContent": "雅思写作大师班（学术版）帮助个人通过详细的练习和策略提高学术写作技能，重点在任务响应、连贯性和语法上。",
+    "toeflGeneralClass": "托福通用课程",
+    "toeflGeneralClassContent": "托福通用课程帮助个人提高学术和职业目的的英语能力，重点是通过针对性的练习和策略覆盖听力、阅读、口语和写作各部分。",
+    "toeflSpeakingListeningMasterClass": "托福口语与听力大师班",
+    "toeflSpeakingListeningMasterClassContent": "托福口语与听力大师班通过集中练习和策略帮助个人提高口语和听力理解能力。",
+    "toeflWritingMasterClass": "托福写作大师班",
+    "toeflWritingMasterClassContent": "托福写作大师班（学术版）帮助个人通过详细练习和策略提高学术写作能力。",
+    "academicEdition": "（学术版）",
+    "generalEdition": "（通用版）",
+    "readMore": "阅读更多"
+  },
+  "booking_1": {
+    "classTitle": "CELPIP通用班",
+    "price": "30加元",
+    "classDescription": "CELPIP通用班帮助个人通过有针对性的练习提高日常交流、工作和移民所需的英语技能。",
+    "oneOnOneCall": "一对一通话",
+    "groupCall": "小组通话",
+    "overview": "概述",
+    "classDescriptionHeader": "课程描述",
+    "descriptionIntro": "专为申请加拿大永久居留权或其他移民项目的个人设计，评估其四项主要语言技能：",
+    "descriptionDetails": "CELPIP通用班通常旨在帮助学生在这些部分中取得优异成绩。如果您正在组织或参加此类课程，以下是课程可能包括的内容：",
+    "skills": {
+      "listening": "听力",
+      "reading": "阅读",
+      "writing": "写作",
+      "speaking": "口语"
+    },
+    "objectives": {
+      "objectives":"课程目标",
+      "familiarize": "让学生熟悉CELPIP考试形式和评分标准。",
+      "developSkills": "培养特定于CELPIP任务和问题类型的技能。",
+      "enhanceProficiency": "提高整体英语语言水平。",
+      "buildConfidence": "为考试日建立信心。"
+    },
+    "features": {
+      "title":"课程特色",
+      "lectures": "讲座",
+      "lectureCount": "3",
+      "duration": "时长",
+      "durationTime": "1小时",
+      "level": "等级",
+      "levelType": "初学者",
+      "language": "语言",
+      "languageType": "英语"
+    }
+  },
+  "booking_2": {
+    "booking": "预定",
+    "findBestClasses": "找到最佳课程",
+    "learnCommunication": "学习成功的沟通技巧",
+    "getStarted": "开始",
+    "classes": "课程",
+    "classImageAlt": "雅思一般培训课程的照片",
+    "ieltsClassTitle": "雅思普通备考课程",
+    "classPrice": "30 加元",
+    "classDescription": "雅思普通备考课程帮助个人通过有针对性的练习提高日常交流、工作和移民的英语技能。",
+    "oneOnOneCall": "一对一电话",
+    "groupCall": "团体电话",
+    "overview": "概述",
+    "classDescriptionTitle": "课程描述",
+    "classDetailedDescription": "雅思普通备考课程旨在帮助那些希望在国际英语语言测试系统（IELTS）普通培训模块中取得成功的个人。此测试是希望在讲英语的国家进行移民、工作或接受中等教育的人的必要条件。",
+    "listening": "听力",
+    "reading": "阅读",
+    "writing": "写作",
+    "speaking": "口语",
+    "classObjectives": "课程结束后，学生将能够：",
+    "classObjectivesTitle": "课程目标",
+    "objective1": "掌握雅思普通培训测试的格式、评分标准和评分标准。",
+    "objective2": "应用每个测试部分的有效策略，以优化时间和准确性。",
+    "objective3": "提高听力技能，理解不同口音和语境下的英语口语。",
+    "objective4": "开发阅读技巧，迅速分析并回答工作和一般兴趣文本。",
+    "classFeaturesTitle": "课程特点",
+    "lectures": "讲座",
+    "duration": "时长",
+    "hour": "小时",
+    "level": "水平",
+    "beginner": "初级",
+    "language": "语言",
+    "english": "英语"
+  },
+  "booking_3": {
+      "imageAlt": "雅思综合班",
+      "classTitle": "雅思综合班",
+      "price": "30 加元",
+      "classDescription": "CELPIP 综合课程通过针对性练习帮助个人提高日常沟通、工作和移民所需的英语技能。",
+      "oneOnOneCall": "一对一课程",
+      "groupCall": "小组课程",
+      "overview": "课程概述",
+      "classDescriptionHeader": "课程描述",
+      "descriptionIntro": "雅思综合班专为希望在国际英语语言测试系统（IELTS）综合培训模块中取得成功的个人量身定制。此测试是那些寻求移民、工作机会或在英语国家接受中等教育的人的重要要求。",
+      "skills": {
+        "listening": "听力",
+        "reading": "阅读",
+        "writing": "写作",
+        "speaking": "口语"
+      },
+      "descriptionDetails": "课程结束后，学生将能够：",
+      "objectivesHeader": "课程目标：",
+      "objectives": {
+        "familiarize": "掌握雅思综合培训测试的格式、评分标准和评分标准。",
+        "applyStrategies": "为每个测试部分应用有效策略以优化时间和准确性。",
+        "improveListening": "提高听力技巧，以理解不同口音和语境的英语。",
+        "developReading": "开发阅读技巧，快速分析并回应工作场所和一般兴趣文本。"
+      },
+      "features": {
+        "title": "课程特色",
+        "lectures": "讲座",
+        "lectureCount": "3",
+        "duration": "时长",
+        "durationTime": "1 小时",
+        "level": "水平",
+        "levelType": "初级",
+        "language": "语言",
+        "languageType": "英语"
+      }
+    },
+    "booking_4": {
+      "imageAlt": "雅思听力与阅读大师班",
+      "classTitle": "雅思听力与阅读大师班",
+      "price": "30 加元",
+      "classDescription": "雅思听力与阅读大师班通过有针对性的练习和战略指导，帮助个人在雅思考试的理解部分中取得优异成绩。",
+      "oneOnOneCall": "一对一课程",
+      "groupCall": "小组课程",
+      "overview": "课程概述",
+      "classDescriptionHeader": "课程描述",
+      "descriptionIntro": "雅思听力与阅读大师班专为希望提高雅思综合培训模块理解能力的个人量身定制。此课程对于寻求移民、就业或在英语国家进一步学习的人尤为重要。",
+      "skills": {
+        "listening": "听力",
+        "reading": "阅读",
+        "writing": "写作",
+        "speaking": "口语"
+      },
+      "descriptionDetails": "课程结束后，学生将能够：",
+      "objectivesHeader": "课程目标：",
+      "objectives": {
+        "familiarize": "掌握雅思听力和阅读测试的格式、评分标准和评分准则。",
+        "applyStrategies": "应用有效的理解策略以优化准确性和时间管理。",
+        "improveListening": "提高听力技能，以理解多样口音和复杂语境。",
+        "developReading": "加强阅读技巧，以高效分析和回应各种文本。"
+      },
+      "features": {
+        "title": "课程特色",
+        "lectures": "讲座",
+        "lectureCount": "3",
+        "duration": "时长",
+        "durationTime": "1 小时",
+        "level": "水平",
+        "levelType": "初级",
+        "language": "语言",
+        "languageType": "英语"
+      }
+    },
+    "booking_5": {
+      "imageAlt": "雅思写作大师班",
+      "classTitle": "雅思写作大师班",
+      "price": "30 加元",
+      "classDescription": "雅思写作大师班通过有针对性的练习和战略指导，帮助个人在雅思考试的写作部分中取得优异成绩。",
+      "oneOnOneCall": "一对一课程",
+      "groupCall": "小组课程",
+      "overview": "课程概述",
+      "classDescriptionHeader": "课程描述",
+      "descriptionIntro": "雅思写作大师班专为希望提高雅思综合培训模块写作能力的个人量身定制。此课程对于寻求移民、就业或在英语国家进一步学习的人尤为重要。",
+      "skills": {
+        "listening": "听力",
+        "reading": "阅读",
+        "writing": "写作",
+        "speaking": "口语"
+      },
+      "descriptionDetails": "课程结束后，学生将能够：",
+      "objectivesHeader": "课程目标：",
+      "objectives": {
+        "familiarize": "掌握雅思写作测试的格式、评分标准和评分准则。",
+        "applyStrategies": "应用有效的写作任务策略以优化连贯性和准确性。",
+        "improveListening": "提高批判性思维能力，以清晰地构思和表达书面英语中的观点。",
+        "developReading": "加强技能以满足写作任务的要求和时间管理。"
+      },
+      "features": {
+        "title": "课程特色",
+        "lectures": "讲座",
+        "lectureCount": "3",
+        "duration": "时长",
+        "durationTime": "1 小时",
+        "level": "水平",
+        "levelType": "初级",
+        "language": "语言",
+        "languageType": "英语"
+      }
+    },
+    "booking_6": {
+      "imageAlt": "托福基础课程",
+      "classTitle": "托福基础课程",
+      "price": "30 加元",
+      "classDescription": "托福基础课程帮助个人提高英语技能，为学术成功和日常交流做好准备。",
+      "oneOnOneCall": "一对一课程",
+      "groupCall": "小组课程",
+      "overview": "课程概述",
+      "classDescriptionHeader": "课程描述",
+      "descriptionIntro": "托福基础课程专为希望在托福考试中取得成功的个人量身定制。此考试对于希望在英语环境中寻求学习和工作机会的学生和专业人士尤为重要。",
+      "skills": {
+        "listening": "听力",
+        "reading": "阅读",
+        "writing": "写作",
+        "speaking": "口语"
+      },
+      "descriptionDetails": "课程结束后，学生将能够：",
+      "objectivesHeader": "课程目标：",
+      "objectives": {
+        "familiarize": "了解托福考试的结构、评分标准和任务要求。",
+        "applyStrategies": "掌握托福考试各部分的有效策略。",
+        "improveListening": "提高听力技能，理解各种学术和日常英语对话。",
+        "developReading": "培养学术文章的阅读策略和批判性分析能力。"
+      },
+      "features": {
+        "title": "课程特色",
+        "lectures": "讲座",
+        "lectureCount": "3",
+        "duration": "时长",
+        "durationTime": "1 小时",
+        "level": "水平",
+        "levelType": "初级",
+        "language": "语言",
+        "languageType": "英语"
+      }
+    }
+
+}

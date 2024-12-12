@@ -1,41 +1,40 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import Photo_1 from './images/Photo_1.avif';
 import Photo_2 from './images/Photo_2.avif';
 import Photo_3 from './images/Photo_3.avif';
 import { NavLink } from 'react-router-dom';
 export const Course = () => {
- 
-    const [currentPage, setCurrentPage] = useState(1);
-    const postsPerPage = 3; 
     
+    const [t] = useTranslation("global");
+
+    const [currentPage] = useState(1);
+    const postsPerPage = 3; 
     const booking = [
       {
-        id:'1',
-        title: " CELPIP General Class ",
+        id: '1',
+        title: t('course.celpip_general_class'), 
         image: Photo_1,
-        price: 'CA$20.00',
+        price: t('course.price'),
         route: './celpip_general_class',
-        content: 'The CELPIP General Class helps individuals improve English skills for everyday communication, work, and immigration through targeted practice.',
+        content: t('course.content.celpip_general_class'),
       },
       {
-        id:'2',
-        title: "IELTS General Preparation",
+        id: '2',
+        title: t('course.ielts_general_preparation'),
         image: Photo_2,
-        price: 'CA$20.00',
-        edition: " (Academic Edition)",
+        price: t('course.price'),
         route: '/ielts_general_preparation',
-        content: 'Designed to help individuals prepare for the IELTS Academic test, focusing on English proficiency for academic and professional purposes.',
+        content: t('course.content.ielts_general_preparation'),
       },
       {
-        id:'3',
-        title: " IELTS General Prep Class ",
+        id: '3',
+        title: t('course.ielts_general_prep_class'),
         image: Photo_3,
-        price: 'CA$20.00',
-        edition: " (General Edition)",
+        price: t('course.price'),
         route: '/ielts_general_pre_class',
-        content: 'The IELTS General Prep Class helps individuals improve English for everyday communication, work, and migration through focused practice and strategies.',
+        content: t('course.content.ielts_general_prep_class'),
       },
-      
     ];
   
     const lastPostIndex = currentPage * postsPerPage;
@@ -46,13 +45,12 @@ export const Course = () => {
       <>
        <section style={{width:`90%`, margin:`auto`}} className="course_section">
        <div className="booking_page_section " id='booking' data-aos="zoomIn">
-        <h1 className='course_section_h'>Find The Right
-            Online Course For You</h1>
-            <p className='course_section_p'>Uou don't have to struggle alone, you've got our assistance and help.</p>
-          <div className="booking_page_container container">
+        <h1 className='course_section_h'>{t("homepage.content_19")}</h1>
+            <p className='course_section_p'>{t("homepage.content_20")}</p>
+          <div className="booking_page_container container" >
             {currentPosts.map((item) => (
-              <div key={item.id} id={`booking-${item.id}`}  className="booking_page_box">
-                <div className="booking_page_content">
+              <div data-aos="zoom-out-up"key={item.id} id={`booking-${item.id}`}  className="booking_page_box">
+                <div className="booking_page_content" >
                   <div className="booking_page_image_container">
                     <img className='booking_image' src={item.image} alt="" />
                   </div>
@@ -65,7 +63,7 @@ export const Course = () => {
                     <span className='booking_paragraph'>{item.edition}</span>
                     <p>{item.content}</p>
                     <div className="booking_button">
-                      <NavLink className='booking_button_a' to={item.route}> READ MORE
+                      <NavLink className='booking_button_a' to={item.route}> {t("homepage.content_21")}
                       <i className="ri-arrow-right-fill"></i></NavLink> 
                     </div>
                   </div>

@@ -24,6 +24,7 @@ import BackToTopButton from './pages/backToTopButton/BackToTopButton.jsx'
 import PrivacyPage from './pages/privacy @ policy/privacy_page.jsx'
 import TermsAndConditions from './pages/terms and conditions/Conditions.jsx'
 function App() {
+  
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []); 

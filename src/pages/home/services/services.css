@@ -1,5 +1,7 @@
 
 .services_paragraph {
+    margin: auto;
+    max-width: 800px;
     text-align: center;
     font-weight: normal;
     font-size: 2rem;

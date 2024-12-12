@@ -21,6 +21,11 @@
   display: flex;
   
 }
+
+.dropdown-menu button {
+  border: none;
+  background-color: var(--container-color);
+}
 /* Header Navigation */
 header {
   background-color: rgba(255, 255, 255, 0.2);

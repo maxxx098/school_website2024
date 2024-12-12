@@ -16,3 +16,10 @@
     height: 20px;
     margin-right: 10px
 }
+.contact_header {
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    font-size: 3rem;
+    color: rgb(184, 183, 183);
+}
